@@ -73,5 +73,5 @@ export default defineConfig([
 ])
 
 ```
-# senoengenharia
+# insightclinica
 # shirleyribeiropaschoal

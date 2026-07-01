@@ -5,7 +5,7 @@ import { ArrowUpRight, Mail, MapPin, Phone, ArrowLeft, MessageCircle } from "luc
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
-import logoImg from "@/assets/senoengenharia.png";
+import logoImg from "@/assets/insightclinica.png";
 
 export const Route = createFileRoute("/contato")({
   head: () => ({
@@ -33,7 +33,7 @@ function Contato() {
     const body = encodeURIComponent(
       `Nome: ${data.nome}\nEmail: ${data.email}\nTelefone: ${data.telefone}\n\nMENSAGEM:\n${data.mensagem}`,
     );
-    window.location.href = `mailto:contato@senoengenharia.com.br?subject=Contato%20pelo%20site&body=${body}`;
+    window.location.href = `mailto:contato@insightclinica.com.br?subject=Contato%20pelo%20site&body=${body}`;
     reset();
   };
 
@@ -119,7 +119,7 @@ function Contato() {
               </a>
 
               <a
-                href="mailto:contato@senoengenharia.com.br"
+                href="mailto:contato@insightclinica.com.br"
                 className="group flex items-start gap-4 border-b border-zinc-200 dark:border-zinc-800 pb-6 w-full"
               >
                 <Mail
@@ -131,7 +131,7 @@ function Contato() {
                     E-mail
                   </div>
                   <div className="mt-1 font-display text-lg sm:text-xl text-zinc-900 transition group-hover:text-orange-700 dark:text-zinc-200 dark:group-hover:text-orange-500 break-all">
-                    contato@senoengenharia.com.br
+                    contato@insightclinica.com.br
                   </div>
                 </div>
               </a>
