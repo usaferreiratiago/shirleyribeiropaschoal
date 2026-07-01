@@ -37,11 +37,11 @@ export const Route = createFileRoute("/equipe")({
 // Mock com a lista de funcionários
 const allStaff = [
   {
-    img: f1,
-    name: "Sérgio Reis",
-    role: "Diretor Executivo & Engenheiro Civil",
-    info: "Fundador · Especialista em Estruturas",
-    year: "1986",
+    img: f5,
+    name: "Shirley Ribeiro Paschoal",
+    role: "Psicóloga",
+    info: "Psicóloga · Especialista em ......",
+    year: "",
   },
   {
     img: f2,
@@ -130,8 +130,8 @@ function Funcionarios() {
 
       <PageHeader
         eyebrow="— Nossa Equipe"
-        title="O capital humano por trás de cada m² construído."
-        intro="Profissionais de engenharia, arquitetura e gerenciamento focados em transformar riscos no papel em estruturas definitivas."
+        title="O capital humano por trás de cada atendimento realizado."
+        intro="Psicólogos e profissionais da saúde mental dedicados a transformar sofrimento emocional em compreensão, equilíbrio e bem-estar, com escuta qualificada e acolhimento em cada processo terapêutico"
       />
 
       <section className="py-12 sm:py-16 lg:py-24 bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors duration-300">
