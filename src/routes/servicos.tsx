@@ -24,7 +24,7 @@ export const Route = createFileRoute("/servicos")({
         content:
           "Projetos arquitetônicos e estruturais, construção, reformas, obras industriais e gerenciamento de obras no Vale do Aço.",
       },
-      { property: "og:title", content: "Serviços de engenharia — Seno" },
+      { property: "og:title", content: "Serviços de engenharia — Insight Clinica" },
       { property: "og:description", content: "Do desenho à entrega das chaves." },
     ],
   }),

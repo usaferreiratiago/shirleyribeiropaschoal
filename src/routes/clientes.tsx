@@ -16,7 +16,7 @@ export const Route = createFileRoute("/clientes")({
           "Depoimentos de clientes residenciais, comerciais e industriais atendidos pela Insight Clínica.",
       },
       { property: "og:title", content: "Clientes — Insight Clínica" },
-      { property: "og:description", content: "O que dizem de uma obra feita pela Seno." },
+      { property: "og:description", content: "O que dizem de uma obra feita pela Insight Clinica." },
     ],
   }),
   component: Clientes,
@@ -24,7 +24,7 @@ export const Route = createFileRoute("/clientes")({
 
 const testimonials = [
   {
-    q: "A Seno entregou nossa fábrica três semanas antes do prazo. Em 30 anos de indústria, nunca vi obra correr tão limpa.",
+    q: "A Insight Clinica entregou nossa fábrica três semanas antes do prazo. Em 30 anos de indústria, nunca vi obra correr tão limpa.",
     a: "Roberto Mendes",
     r: "Diretor Industrial · Vale do Aço",
   },
@@ -73,7 +73,7 @@ function Clientes() {
 
       <PageHeader
         eyebrow="— 04 / Clientes"
-        title="O que dizem de uma obra da Seno."
+        title="O que dizem de uma obra da Insight Clinica."
         intro="Famílias, síndicos e diretores industriais que confiaram suas obras à Insight Clínica."
       />
 

@@ -167,7 +167,7 @@ function Home() {
               to: "/clientes",
               n: "04",
               t: "Clientes",
-              d: "O que dizem de uma obra feita pela Seno.",
+              d: "O que dizem de uma obra feita pela Insight Clinica.",
             },
             {
               to: "/funcionarios",
