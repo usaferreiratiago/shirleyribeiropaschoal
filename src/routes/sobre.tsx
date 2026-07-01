@@ -58,7 +58,7 @@ function Sobre() {
       <PageHeader
         eyebrow="— 01 / Sobre"
         title="Psicologia construída por quem compreende o peso de cada história."
-        intro="Fundada em 1986 em Coronel Fabriciano, a Insight Clínica atua no cuidado em saúde mental, atendendo pessoas, famílias e instituições do Vale do Aço com escuta qualificada, ética e acolhimento desde o primeiro dia."
+        intro="Fundada em 2011 em Coronel Fabriciano, a Insight Clínica atua no cuidado em saúde mental, atendendo pessoas, famílias e instituições do Vale do Aço com escuta qualificada, ética e acolhimento desde o primeiro dia."
       />
 
       {/* Seção com suporte completo a cores adaptáveis */}
@@ -87,7 +87,7 @@ function Sobre() {
               <strong className="text-zinc-900 font-semibold dark:text-zinc-50">
                 Insight Clínica
               </strong>{" "}
-              nasceu em 1986 com uma convicção simples: cuidado em saúde mental é um processo contínuo, que pode transformar vidas ao longo do tempo. Desde então, construímos relações baseadas em escuta, acolhimento e confiança.
+              nasceu em 2011 com uma convicção simples: cuidado em saúde mental é um processo contínuo, que pode transformar vidas ao longo do tempo. Desde então, construímos relações baseadas em escuta, acolhimento e confiança.
             </p>
             <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400 font-medium dark:font-normal">
               Nossa equipe de psicólogos acompanha cada etapa do atendimento — da avaliação inicial ao processo terapêutico — com o compromisso de oferecer um cuidado ético, humano e responsável, entendendo que cada história merece atenção singular.
