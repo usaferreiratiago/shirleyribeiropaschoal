@@ -13,8 +13,14 @@ export const Route = createFileRoute("/")({
         content:
           "Projetos, obras civis e gerenciamento de construção em Coronel Fabriciano/MG. CNPJ 38.039.512/0001-34..",
       },
-      { property: "og:title", content: "Insight Clínica — Projetos e Construções" },
-      { property: "og:description", content: "40 anos de engenharia em Coronel Fabriciano/MG." },
+      {
+        property: "og:title",
+        content: "Insight Clínica — Projetos e Construções",
+      },
+      {
+        property: "og:description",
+        content: "40 anos de engenharia em Coronel Fabriciano/MG.",
+      },
       { property: "og:image", content: heroImg },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -77,10 +83,14 @@ function Home() {
 
             <motion.h1
               {...fadeUp}
-              transition={{ duration: 0.9, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
+              transition={{
+                duration: 0.9,
+                delay: 0.05,
+                ease: [0.22, 1, 0.36, 1],
+              }}
               className="font-display text-[clamp(2.75rem,8vw,7rem)] font-medium leading-[0.95] text-zinc-900 dark:text-zinc-50 tracking-tight"
             >
-              Foco em 
+              Foco em
               <br />
               <span className="italic font-light text-orange-700 dark:text-orange-500">
                 Solidez
@@ -93,8 +103,9 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="mt-8 max-w-xl text-base leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-lg font-medium dark:font-normal"
             >
-              Quatro décadas projetando e executando obras residenciais, comerciais e industriais no
-              Vale do Aço. Engenharia honesta, prazos cumpridos, obras que envelhecem bem.
+              Quatro décadas projetando e executando obras residenciais,
+              comerciais e industriais no Vale do Aço. Engenharia honesta,
+              prazos cumpridos, obras que envelhecem bem.
             </motion.p>
 
             <motion.div
@@ -125,7 +136,10 @@ function Home() {
             {[
               { k: "40", l: "anos de atendimento" },
               { k: "2500+", l: "atendimentos realizados" },
-              { k: "MG", l: "MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa." },
+              {
+                k: "MG",
+                l: "MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa.",
+              },
               { k: "100%", l: "prazo cumprido" },
             ].map((s) => (
               <div key={s.l} className="px-6 py-8 lg:px-10">
@@ -194,7 +208,9 @@ function Home() {
                 <h2 className="mt-3 font-display text-3xl font-medium text-zinc-900 dark:text-zinc-50">
                   {c.t}
                 </h2>
-                <p className="mt-2 max-w-md text-sm text-zinc-600 dark:text-zinc-400">{c.d}</p>
+                <p className="mt-2 max-w-md text-sm text-zinc-600 dark:text-zinc-400">
+                  {c.d}
+                </p>
               </div>
               <ArrowUpRight className="h-6 w-6 shrink-0 text-zinc-900 dark:text-zinc-50 transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-orange-700 dark:group-hover:text-orange-500" />
             </Link>
