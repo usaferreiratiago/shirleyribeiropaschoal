@@ -120,7 +120,7 @@ function Contato() {
           >
             <div className="space-y-6">
               <a
-                href="tel:+55313841-1290"
+                href="tel:+5531988191660"
                 className="group flex items-start gap-4 border-b border-zinc-200 dark:border-zinc-800 pb-6 w-full"
               >
                 <Phone
@@ -132,7 +132,7 @@ function Contato() {
                     Telefone
                   </div>
                   <div className="mt-1 font-display text-lg sm:text-xl text-zinc-900 transition group-hover:text-orange-700 dark:text-zinc-200 dark:group-hover:text-orange-500 truncate">
-                    (31) 3841-1290
+                    (31) 98819-1660
                   </div>
                 </div>
               </a>
