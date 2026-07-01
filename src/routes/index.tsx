@@ -116,7 +116,7 @@ function Home() {
               className="mt-10 flex flex-wrap gap-4"
             >
               <Link
-                to="/contato"
+                to="/"
                 className="group inline-flex items-center gap-3 rounded-sm bg-orange-700 dark:bg-orange-600 px-6 py-3.5 text-sm font-medium text-white transition hover:bg-orange-800 dark:hover:bg-orange-500 shadow-md"
               >
                 Solicitar Consulta

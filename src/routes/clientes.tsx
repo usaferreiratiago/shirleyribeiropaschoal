@@ -12,11 +12,13 @@ export const Route = createFileRoute("/clientes")({
       { title: "Pacientes — Insight Clínica" },
       {
         name: "description",
-        content:
-          "Depoimentos de pacientes atendidos pela Insight Clínica.",
+        content: "Depoimentos de pacientes atendidos pela Insight Clínica.",
       },
       { property: "og:title", content: "Pacientes — Insight Clínica" },
-      { property: "og:description", content: "O que dizem sobre o atendimento da Insight Clínica." },
+      {
+        property: "og:description",
+        content: "O que dizem sobre o atendimento da Insight Clínica.",
+      },
     ],
   }),
   component: Clientes,
@@ -38,17 +40,17 @@ const testimonials = [
     a: "Carlos Augusto Pereira",
     r: "Paciente· Coronel Fabriciano",
   },
-    {
+  {
     q: "O atendimento foi acolhedor desde o primeiro contato. Me senti ouvido e respeitado em todo o processo, o que fez muita diferença na minha evolução emocional.",
     a: "Marcia Loureiro",
     r: "Paciente· Estados Unidos",
   },
-    {
+  {
     q: "Encontrei um espaço seguro para falar sobre questões que vinha guardando há anos. A escuta foi atenta e sem julgamentos, algo essencial para mim.",
     a: "Sara Medeiros",
     r: "Paciente· Portugal",
   },
-    {
+  {
     q: "O acompanhamento foi muito profissional e ao mesmo tempo humano. Me ajudou a organizar pensamentos e lidar melhor com a ansiedade do dia a dia.",
     a: "Guilherme Andrade",
     r: "Paciente· Santa Catarina",
@@ -106,7 +108,10 @@ function Clientes() {
               >
                 <div>
                   {/* Ícone de aspas usando a cor terracota/laranja consistente com a Home */}
-                  <Quote className="h-8 w-8 text-orange-700 dark:text-orange-500 shrink-0" strokeWidth={1.2} />
+                  <Quote
+                    className="h-8 w-8 text-orange-700 dark:text-orange-500 shrink-0"
+                    strokeWidth={1.2}
+                  />
 
                   <blockquote className="mt-6 sm:mt-8 text-base sm:text-lg leading-relaxed text-zinc-700 dark:text-zinc-300 break-words">
                     "{t.q}"
