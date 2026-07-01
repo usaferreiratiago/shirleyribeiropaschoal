@@ -166,8 +166,7 @@ function Contato() {
                     Horário de Atendimento
                   </div>
                   <div className="mt-1 font-display text-base sm:text-lg text-zinc-900 dark:text-zinc-200 space-y-0.5">
-                    <p>Segunda a Sexta: 08h às 18h</p>
-                    <p>Sábado: 08h às 12h</p>
+                    <p>Segunda a Sexta: 14:30h às 19:00h</p>
                   </div>
                 </div>
               </div>
@@ -187,6 +186,13 @@ function Contato() {
                     Cel. Fabriciano
                     <br />
                     MG — CEP 35170-024
+                  </div>
+                  <div className="mt-1 font-display text-lg sm:text-xl leading-snug text-zinc-900 dark:text-zinc-200">
+                    Av. Castelo Branco, 762 - Horto
+                    <br />
+                    Ipatinga - MG
+                    <br />
+                    MG — CEP 35160-294
                   </div>
                   <div className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
                     CNPJ 38.039.512/0001-34
@@ -211,7 +217,7 @@ function Contato() {
             <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
                 title="Localização Insight Clínica"
-                src="https://www.google.com/maps?q=Rua+Rubens+Siqueira+Maia+599,+Coronel+Fabriciano,+MG&output=embed"
+                src="https://www.google.com/maps?q=Av.+Castelo+Branco,+762+-+Horto,+Ipatinga+-+MG,+35160-294&output=embed"
                 width="100%"
                 height="100%"
                 loading="lazy"
