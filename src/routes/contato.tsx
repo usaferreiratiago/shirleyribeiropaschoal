@@ -194,6 +194,13 @@ function Contato() {
                     <br />
                     MG — CEP 35160-294
                   </div>
+                  <div className="mt-1 font-display text-lg sm:text-xl leading-snug text-zinc-900 dark:text-zinc-200">
+                    R. Buritis, 105 - Loja 02 - Horto
+                    <br />
+                    Ipatinga - MG
+                    <br />
+                    MG — CEP 35160-321
+                  </div>
                   <div className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
                     CNPJ 38.039.512/0001-34
                   </div>
@@ -218,6 +225,18 @@ function Contato() {
               <iframe
                 title="Localização Insight Clínica"
                 src="https://www.google.com/maps?q=Av.+Castelo+Branco,+762+-+Horto,+Ipatinga+-+MG,+35160-294&output=embed"
+                width="100%"
+                height="100%"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="h-full w-full border-0 dark:invert dark:grayscale dark:opacity-80 transition-all duration-300"
+                allowFullScreen
+              />
+            </div>
+            <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
+              <iframe
+                title="Localização Insight Clínica"
+                src="https://www.google.com/maps?q=R.+Buritis,+105+-+Loja+02+-+Horto,+Ipatinga+-+MG,+35160-321&output=embed"
                 width="100%"
                 height="100%"
                 loading="lazy"
