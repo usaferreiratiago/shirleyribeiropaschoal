@@ -1,12 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import {
-  Building2,
-  Compass,
-  HardHat,
-  Hammer,
-  ClipboardCheck,
-  Ruler,
+  Brain,
+  Heart,
+  Users,
+  MessageCircle,
+  ShieldCheck,
+  ClipboardList,
   ArrowLeft,
 } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
@@ -32,35 +32,35 @@ export const Route = createFileRoute("/servicos")({
 });
 
 const services = [
-  {
-    icon: Compass,
-    title: "Projetos arquitetônicos",
-    desc: "Estudo preliminar, anteprojeto e projeto executivo com foco em viabilidade e estética.",
+    {
+    icon: Brain,
+    title: "Avaliação psicológica",
+    desc: "Processo inicial de escuta e compreensão das demandas emocionais, comportamentais e cognitivas do paciente.",
   },
   {
-    icon: Ruler,
-    title: "Projetos estruturais",
-    desc: "Cálculo estrutural em concreto armado, aço e fundações para todo porte de obra.",
+    icon: Heart,
+    title: "Psicoterapia individual",
+    desc: "Atendimento clínico focado no autoconhecimento, regulação emocional e desenvolvimento pessoal.",
   },
   {
-    icon: Building2,
-    title: "Construção civil",
-    desc: "Execução completa de obras residenciais, comerciais e industriais — chave na mão.",
+    icon: Users,
+    title: "Terapia familiar",
+    desc: "Acompanhamento de famílias para melhorar comunicação, vínculos e resolução de conflitos.",
   },
   {
-    icon: Hammer,
-    title: "Reformas e ampliações",
-    desc: "Reformas estruturais, retrofits e ampliações com mínimo impacto operacional.",
+    icon: MessageCircle,
+    title: "Aconselhamento psicológico",
+    desc: "Suporte breve para momentos de crise, decisões difíceis e orientação emocional.",
   },
   {
-    icon: HardHat,
-    title: "Obras industriais",
-    desc: "Galpões, pavilhões e infraestrutura para o parque industrial do Vale do Aço.",
+    icon: ShieldCheck,
+    title: "Saúde mental preventiva",
+    desc: "Estratégias de cuidado e prevenção para reduzir riscos de sofrimento psíquico e promover bem-estar.",
   },
   {
-    icon: ClipboardCheck,
-    title: "Gerenciamento de obras",
-    desc: "Planejamento, orçamento, fiscalização e controle de qualidade.",
+    icon: ClipboardList,
+    title: "Acompanhamento terapêutico",
+    desc: "Planejamento e monitoramento contínuo do processo terapêutico com foco em evolução clínica.",
   },
 ];
 
@@ -86,11 +86,11 @@ function Servicos() {
             transition={{ duration: 0.5 }}
             className="flex justify-center sm:justify-start"
           >
-            <img
+            {/* <img
               src={logoImg}
               alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
