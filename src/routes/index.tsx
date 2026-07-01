@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Projetos, obras civis e gerenciamento de construção em Coronel Fabriciano/MG. CNPJ 20.853.842/0001-01.",
+          "Projetos, obras civis e gerenciamento de construção em Coronel Fabriciano/MG. CNPJ 38.039.512/0001-34..",
       },
       { property: "og:title", content: "Insight Clínica — Projetos e Construções" },
       { property: "og:description", content: "40 anos de engenharia em Coronel Fabriciano/MG." },

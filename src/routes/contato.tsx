@@ -153,7 +153,7 @@ function Contato() {
                     MG — CEP 35170-123
                   </div>
                   <div className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
-                    CNPJ 20.853.842/0001-01
+                    CNPJ 38.039.512/0001-34
                   </div>
                 </div>
               </div>
@@ -163,7 +163,7 @@ function Contato() {
             <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
                 title="Localização Insight Clínica"
-                src="https://maps.google.com/maps?q=Rua%20Benedito%20Onecimo%20Martins,%2023%20Vila%20Bom%20Jesus%20Coronel%20Fabriciano&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps?q=Rua+Rubens+Siqueira+Maia+599,+Coronel+Fabriciano,+MG&output=embed"
                 width="100%"
                 height="100%"
                 loading="lazy"
