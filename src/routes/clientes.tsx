@@ -73,8 +73,8 @@ function Clientes() {
 
       <PageHeader
         eyebrow="— 04 / Clientes"
-        title="O que dizem de uma obra da Insight Clinica."
-        intro="Famílias, síndicos e diretores industriais que confiaram suas obras à Insight Clínica."
+        title="O que dizem sobre a atuação da Insight Clínica."
+        intro="Pacientes, famílias e instituições que confiaram seus processos de cuidado à equipe de psicólogos da Insight Clínica."
       />
 
       <section className="bg-zinc-50 dark:bg-zinc-900/40 py-12 sm:py-16 lg:py-28 text-zinc-900 dark:text-zinc-50 transition-colors duration-300">
