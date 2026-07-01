@@ -109,12 +109,12 @@ function Home() {
                 Solicitar Consulta
                 <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </Link>
-              <Link
+              {/* <Link
                 to="/obras"
                 className="inline-flex items-center gap-3 rounded-sm border border-zinc-900/20 dark:border-zinc-50/20 px-6 py-3.5 text-sm font-medium text-zinc-900 dark:text-zinc-50 transition hover:border-zinc-900 dark:hover:border-zinc-50 hover:bg-zinc-900/5 dark:hover:bg-zinc-50/5"
               >
                 Ver obras
-              </Link>
+              </Link> */}
             </motion.div>
           </div>
         </div>
@@ -123,9 +123,9 @@ function Home() {
         <div className="relative border-t border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
           <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-zinc-200 dark:divide-zinc-800 md:grid-cols-4">
             {[
-              { k: "40", l: "anos de mercado" },
-              { k: "200+", l: "obras entregues" },
-              { k: "MG", l: "Vale do Aço" },
+              { k: "40", l: "anos de atendimento" },
+              { k: "2500+", l: "atendimentos realizados" },
+              { k: "MG", l: "MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa." },
               { k: "100%", l: "prazo cumprido" },
             ].map((s) => (
               <div key={s.l} className="px-6 py-8 lg:px-10">
@@ -149,7 +149,7 @@ function Home() {
               to: "/sobre",
               n: "01",
               t: "Sobre",
-              d: "40 anos de engenharia honesta no Vale do Aço.",
+              d: "40 anos de atendimento honesto em MG e em todo o Brasil, Estados Unidos e Europa.",
             },
             {
               to: "/servicos",
