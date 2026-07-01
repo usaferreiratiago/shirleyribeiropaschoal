@@ -182,7 +182,7 @@ function Contato() {
                     Endereço
                   </div>
                   <div className="mt-1 font-display text-lg sm:text-xl leading-snug text-zinc-900 dark:text-zinc-200">
-                    Siqueira Maia, 599 - Centro
+                    Siqueira Maia, 599 - Centro -
                     <br />
                     Cel. Fabriciano
                     <br />
@@ -196,6 +196,18 @@ function Contato() {
             </div>
 
             {/* Container do Mapa corrigido com link público funcional */}
+            <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
+              <iframe
+                title="Localização Insight Clínica"
+                src="https://www.google.com/maps?q=Rua+Rubens+Siqueira+Maia+599,+Coronel+Fabriciano,+MG&output=embed"
+                width="100%"
+                height="100%"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="h-full w-full border-0 dark:invert dark:grayscale dark:opacity-80 transition-all duration-300"
+                allowFullScreen
+              />
+            </div>
             <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
                 title="Localização Insight Clínica"
