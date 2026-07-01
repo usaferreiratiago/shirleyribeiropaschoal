@@ -74,19 +74,19 @@ function Contato() {
             transition={{ duration: 0.5 }}
             className="flex justify-center sm:justify-start"
           >
-            <img
+            {/* <img
               src={logoImg}
               alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
 
       <PageHeader
         eyebrow="— 05 / Contato"
-        title="Tem um projeto em mente? Vamos conversar."
-        intro="Conte um pouco sobre sua obra. Respondemos em até dois dias úties."
+        title="Está buscando apoio psicológico? Vamos conversar."
+        intro="Conte um pouco sobre o que você está vivendo. Respondemos em até dois dias úteis."
       />
 
       <section className="py-12 sm:py-16 lg:py-24">
