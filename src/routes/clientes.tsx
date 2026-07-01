@@ -38,6 +38,21 @@ const testimonials = [
     a: "Carlos Augusto Pereira",
     r: "Paciente· Coronel Fabriciano",
   },
+    {
+    q: "O atendimento foi acolhedor desde o primeiro contato. Me senti ouvido e respeitado em todo o processo, o que fez muita diferença na minha evolução emocional.",
+    a: "Marcia Loureiro",
+    r: "Paciente· Estados Unidos",
+  },
+    {
+    q: "Encontrei um espaço seguro para falar sobre questões que vinha guardando há anos. A escuta foi atenta e sem julgamentos, algo essencial para mim.",
+    a: "Sara Medeiros",
+    r: "Paciente· Portugal",
+  },
+    {
+    q: "O acompanhamento foi muito profissional e ao mesmo tempo humano. Me ajudou a organizar pensamentos e lidar melhor com a ansiedade do dia a dia.",
+    a: "Guilherme Andrade",
+    r: "Paciente· Santa Catarina",
+  },
 ];
 
 function Clientes() {
