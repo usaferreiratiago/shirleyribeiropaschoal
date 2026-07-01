@@ -103,9 +103,8 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="mt-8 max-w-xl text-base leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-lg font-medium dark:font-normal"
             >
-              Quatro décadas projetando e executando obras residenciais,
-              comerciais e industriais no Vale do Aço. Engenharia honesta,
-              prazos cumpridos, obras que envelhecem bem.
+              Uma década dedicadas ao cuidado em saúde mental no Vale do Aço.  
+              Psicologia ética e acolhedora, com escuta qualificada e acompanhamento contínuo, promovendo bem-estar emocional e relações mais saudáveis ao longo do tempo.
             </motion.p>
 
             <motion.div
