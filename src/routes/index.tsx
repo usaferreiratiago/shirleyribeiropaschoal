@@ -7,13 +7,13 @@ import heroImg from "@/assets/shirleypaschoal.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Seno Engenharia — 40 anos construindo no Vale do Aço" },
+      { title: "Insight Clínica — 40 anos construindo no Vale do Aço" },
       {
         name: "description",
         content:
           "Projetos, obras civis e gerenciamento de construção em Coronel Fabriciano/MG. CNPJ 20.853.842/0001-01.",
       },
-      { property: "og:title", content: "Seno Engenharia — Projetos e Construções" },
+      { property: "og:title", content: "Insight Clínica — Projetos e Construções" },
       { property: "og:description", content: "40 anos de engenharia em Coronel Fabriciano/MG." },
       { property: "og:image", content: heroImg },
     ],
@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "GeneralContractor",
-          name: "Seno Engenharia Projetos Construções LTDA - ME",
+          name: "Insight Clínica Projetos Construções LTDA - ME",
           taxID: "20.853.842/0001-01",
           foundingDate: "1986",
           address: {
@@ -56,7 +56,7 @@ function Home() {
         <div className="absolute inset-0">
           <img
             src={heroImg}
-            alt="Obra em concreto da Seno Engenharia"
+            alt="Obra em concreto da Insight Clínica"
             width={1920}
             height={1080}
             className="h-full w-full object-cover"
@@ -173,7 +173,7 @@ function Home() {
               to: "/funcionarios",
               n: "05",
               t: "Funcionários",
-              d: "Conheça a equipe por trás das obras da Seno Engenharia.",
+              d: "Conheça a equipe por trás das obras da Insight Clínica.",
             },
             {
               to: "/contato",

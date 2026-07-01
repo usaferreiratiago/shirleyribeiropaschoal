@@ -14,13 +14,13 @@ import logoImg from "@/assets/senoengenharia.png";
 export const Route = createFileRoute("/obras")({
   head: () => ({
     meta: [
-      { title: "Obras — Seno Engenharia" },
+      { title: "Obras — Insight Clínica" },
       {
         name: "description",
         content:
-          "Portfólio de obras residenciais, comerciais e industriais entregues pela Seno Engenharia no Vale do Aço.",
+          "Portfólio de obras residenciais, comerciais e industriais entregues pela Insight Clínica no Vale do Aço.",
       },
-      { property: "og:title", content: "Obras — Seno Engenharia" },
+      { property: "og:title", content: "Obras — Insight Clínica" },
       {
         property: "og:description",
         content: "Portfólio que se mede em metros quadrados e décadas.",
@@ -130,7 +130,7 @@ function Obras() {
           >
             <img
               src={logoImg}
-              alt="Seno Engenharia Logo"
+              alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             />
           </motion.div>

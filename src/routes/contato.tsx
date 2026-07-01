@@ -10,13 +10,13 @@ import logoImg from "@/assets/senoengenharia.png";
 export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
-      { title: "Contato — Seno Engenharia" },
+      { title: "Contato — Insight Clínica" },
       {
         name: "description",
         content:
-          "Solicite orçamento ou tire dúvidas com a equipe da Seno Engenharia em Coronel Fabriciano/MG.",
+          "Solicite orçamento ou tire dúvidas com a equipe da Insight Clínica em Coronel Fabriciano/MG.",
       },
-      { property: "og:title", content: "Fale com a Seno Engenharia" },
+      { property: "og:title", content: "Fale com a Insight Clínica" },
       { property: "og:description", content: "Solicite orçamento ou tire dúvidas." },
     ],
   }),
@@ -76,7 +76,7 @@ function Contato() {
           >
             <img
               src={logoImg}
-              alt="Seno Engenharia Logo"
+              alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             />
           </motion.div>
@@ -162,7 +162,7 @@ function Contato() {
             {/* Container do Mapa corrigido com link público funcional */}
             <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
-                title="Localização Seno Engenharia"
+                title="Localização Insight Clínica"
                 src="https://maps.google.com/maps?q=Rua%20Benedito%20Onecimo%20Martins,%2023%20Vila%20Bom%20Jesus%20Coronel%20Fabriciano&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"

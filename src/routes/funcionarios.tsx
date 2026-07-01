@@ -18,13 +18,13 @@ import logoImg from "@/assets/senoengenharia.png";
 export const Route = createFileRoute("/equipe")({
   head: () => ({
     meta: [
-      { title: "Equipe — Seno Engenharia" },
+      { title: "Equipe — Insight Clínica" },
       {
         name: "description",
         content:
-          "Conheça o corpo técnico e os diretores responsáveis pela excelência operacional da Seno Engenharia no Vale do Aço.",
+          "Conheça o corpo técnico e os diretores responsáveis pela excelência operacional da Insight Clínica no Vale do Aço.",
       },
-      { property: "og:title", content: "Equipe técnica — Seno Engenharia" },
+      { property: "og:title", content: "Equipe técnica — Insight Clínica" },
       {
         property: "og:description",
         content: "Profissionais experientes construindo o futuro da região.",
@@ -121,7 +121,7 @@ function Funcionarios() {
           >
             <img
               src={logoImg}
-              alt="Seno Engenharia Logo"
+              alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             />
           </motion.div>

@@ -9,13 +9,13 @@ import logoImg from "@/assets/senoengenharia.png";
 export const Route = createFileRoute("/clientes")({
   head: () => ({
     meta: [
-      { title: "Clientes — Seno Engenharia" },
+      { title: "Clientes — Insight Clínica" },
       {
         name: "description",
         content:
-          "Depoimentos de clientes residenciais, comerciais e industriais atendidos pela Seno Engenharia.",
+          "Depoimentos de clientes residenciais, comerciais e industriais atendidos pela Insight Clínica.",
       },
-      { property: "og:title", content: "Clientes — Seno Engenharia" },
+      { property: "og:title", content: "Clientes — Insight Clínica" },
       { property: "og:description", content: "O que dizem de uma obra feita pela Seno." },
     ],
   }),
@@ -64,7 +64,7 @@ function Clientes() {
           >
             <img
               src={logoImg}
-              alt="Seno Engenharia Logo"
+              alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             />
           </motion.div>
@@ -74,7 +74,7 @@ function Clientes() {
       <PageHeader
         eyebrow="— 04 / Clientes"
         title="O que dizem de uma obra da Seno."
-        intro="Famílias, síndicos e diretores industriais que confiaram suas obras à Seno Engenharia."
+        intro="Famílias, síndicos e diretores industriais que confiaram suas obras à Insight Clínica."
       />
 
       <section className="bg-zinc-50 dark:bg-zinc-900/40 py-12 sm:py-16 lg:py-28 text-zinc-900 dark:text-zinc-50 transition-colors duration-300">

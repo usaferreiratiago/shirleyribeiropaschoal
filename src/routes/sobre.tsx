@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { Check, ArrowLeft } from "lucide-react";
-import aboutImg from "@/assets/about-blueprint.jpg";
+import aboutImg from "@/assets/psicology.jpg";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
@@ -11,13 +11,13 @@ import logoImg from "@/assets/senoengenharia.png";
 export const Route = createFileRoute("/sobre")({
   head: () => ({
     meta: [
-      { title: "Sobre — Seno Engenharia" },
+      { title: "Sobre — Insight Clínica" },
       {
         name: "description",
         content:
-          "Há 40 anos a Seno Engenharia projeta e constrói no Vale do Aço, em Coronel Fabriciano/MG.",
+          "Há 40 anos a Insight Clínica projeta e constrói no Vale do Aço, em Coronel Fabriciano/MG.",
       },
-      { property: "og:title", content: "Sobre a Seno Engenharia" },
+      { property: "og:title", content: "Sobre a Insight Clínica" },
       { property: "og:description", content: "40 anos de engenharia honesta no Vale do Aço." },
     ],
   }),
@@ -48,7 +48,7 @@ function Sobre() {
           >
             <img
               src={logoImg}
-              alt="Seno Engenharia Logo"
+              alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             />
           </motion.div>
@@ -85,7 +85,7 @@ function Sobre() {
             <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-lg">
               A{" "}
               <strong className="text-zinc-900 font-semibold dark:text-zinc-50">
-                Seno Engenharia
+                Insight Clínica
               </strong>{" "}
               nasceu em 1986 com uma convicção simples: obra boa é a que atravessa gerações. Desde
               então, construímos relações tão duradouras quanto nossas estruturas.
@@ -98,7 +98,7 @@ function Sobre() {
             {/* Grid de Benefícios/Tags */}
             <ul className="grid grid-cols-1 gap-3 pt-4 sm:grid-cols-2 target-list">
               {[
-                "CNPJ 20.853.842/0001-01",
+                "CNPJ 38.039.512/0001-34.",
                 "Sede em Coronel Fabriciano/MG",
                 "Equipe técnica própria",
                 "Acompanhamento total da obra",
