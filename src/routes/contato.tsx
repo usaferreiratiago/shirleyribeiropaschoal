@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Mail, MapPin, Phone, ArrowLeft, MessageCircle } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone, ArrowLeft, MessageCircle, Linkedin, Instagram } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
@@ -223,25 +223,52 @@ function Contato() {
             </Field>
 
             {/* Grupo de Botões de Envio (E-mail e WhatsApp) */}
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-              {/* Botão Principal: Enviar por E-mail */}
-              <button
-                type="submit"
-                className="group inline-flex w-full items-center justify-center gap-3 rounded-sm bg-zinc-900 dark:bg-zinc-100 px-6 py-4 text-sm font-medium text-white dark:text-zinc-950 transition-colors hover:bg-orange-700 dark:hover:bg-orange-500 dark:hover:text-white md:w-auto shadow-sm cursor-pointer"
-              >
-                Enviar por e-mail
-                <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </button>
+            <div className="space-y-3">
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+                {/* Botão Principal: Enviar por E-mail */}
+                <button
+                  type="submit"
+                  className="group inline-flex w-full items-center justify-center gap-3 rounded-sm bg-zinc-900 dark:bg-zinc-100 px-6 py-4 text-sm font-medium text-white dark:text-zinc-950 transition-colors hover:bg-orange-700 dark:hover:bg-orange-500 dark:hover:text-white md:w-auto shadow-sm cursor-pointer"
+                >
+                  Enviar por e-mail
+                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                </button>
 
-              {/* Novo Botão: Enviar via WhatsApp */}
-              <button
-                type="button"
-                onClick={handleWhatsAppClick}
-                className="group inline-flex w-full items-center justify-center gap-3 rounded-sm border border-emerald-600/30 bg-emerald-50/50 hover:bg-emerald-600 dark:border-emerald-500/20 dark:bg-emerald-950/20 dark:hover:bg-emerald-600 px-6 py-4 text-sm font-medium text-emerald-700 dark:text-emerald-400 hover:text-white dark:hover:text-white transition-all md:w-auto shadow-xs cursor-pointer"
-              >
-                <MessageCircle className="h-4 w-4 fill-current" />
-                Conversar no WhatsApp
-              </button>
+                {/* Botão: Enviar via WhatsApp */}
+                <button
+                  type="button"
+                  onClick={handleWhatsAppClick}
+                  className="group inline-flex w-full items-center justify-center gap-3 rounded-sm border border-emerald-600/30 bg-emerald-50/50 hover:bg-emerald-600 dark:border-emerald-500/20 dark:bg-emerald-950/20 dark:hover:bg-emerald-600 px-6 py-4 text-sm font-medium text-emerald-700 dark:text-emerald-400 hover:text-white dark:hover:text-white transition-all md:w-auto shadow-xs cursor-pointer"
+                >
+                  <MessageCircle className="h-4 w-4 fill-current" />
+                  Conversar no WhatsApp
+                </button>
+              </div>
+
+              {/* Novos Botões de Redes Sociais */}
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center pt-2 border-t border-zinc-200 dark:border-zinc-800">
+                {/* Botão: LinkedIn */}
+                <a
+                  href="https://linkedin.com/company/sua-clinica" /* Substitua com o link correto */
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex w-full items-center justify-center gap-3 rounded-sm border border-blue-600/30 bg-blue-50/50 hover:bg-blue-600 dark:border-blue-500/20 dark:bg-blue-950/20 dark:hover:bg-blue-600 px-6 py-3 text-sm font-medium text-blue-700 dark:text-blue-400 hover:text-white dark:hover:text-white transition-all md:w-auto cursor-pointer"
+                >
+                  <Linkedin className="h-4 w-4" />
+                  LinkedIn
+                </a>
+
+                {/* Botão: Instagram */}
+                <a
+                  href="https://instagram.com/suaclinica" /* Substitua com o link correto */
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex w-full items-center justify-center gap-3 rounded-sm border border-pink-600/30 bg-pink-50/50 hover:bg-pink-600 dark:border-pink-500/20 dark:bg-pink-950/20 dark:hover:bg-pink-600 px-6 py-3 text-sm font-medium text-pink-700 dark:text-pink-400 hover:text-white dark:hover:text-white transition-all md:w-auto cursor-pointer"
+                >
+                  <Instagram className="h-4 w-4" />
+                  Instagram
+                </a>
+              </div>
             </div>
           </motion.form>
         </div>
