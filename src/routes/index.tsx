@@ -163,7 +163,7 @@ function Home() {
               to: "/sobre",
               n: "01",
               t: "Sobre",
-              d: "40 anos de atendimento honesto em MG e em todo o Brasil, Estados Unidos e Europa.",
+              d: "10 anos de atendimento honesto em MG e em todo o Brasil, Estados Unidos e Europa.",
             },
             {
               to: "/servicos",
