@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Mail, MapPin, Phone, ArrowLeft, MessageCircle, Linkedin, Instagram } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone, ArrowLeft, MessageCircle, Linkedin, Instagram, Clock } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
@@ -136,6 +136,23 @@ function Contato() {
                 </div>
               </a>
 
+              {/* Bloco de Horário de Funcionamento */}
+              <div className="flex items-start gap-4 border-b border-zinc-200 dark:border-zinc-800 pb-6 w-full">
+                <Clock
+                  className="mt-1 h-5 w-5 shrink-0 text-orange-700 dark:text-orange-500"
+                  strokeWidth={1.5}
+                />
+                <div className="min-w-0">
+                  <div className="text-xs uppercase tracking-widest text-zinc-500 dark:text-zinc-400 font-semibold">
+                    Horário de Atendimento
+                  </div>
+                  <div className="mt-1 font-display text-base sm:text-lg text-zinc-900 dark:text-zinc-200 space-y-0.5">
+                    <p>Segunda a Sexta: 08h às 18h</p>
+                    <p>Sábado: 08h às 12h</p>
+                  </div>
+                </div>
+              </div>
+
               <div className="flex items-start gap-4 w-full">
                 <MapPin
                   className="mt-1 h-5 w-5 shrink-0 text-orange-700 dark:text-orange-500"
@@ -249,7 +266,7 @@ function Contato() {
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center pt-2 border-t border-zinc-200 dark:border-zinc-800">
                 {/* Botão: LinkedIn */}
                 <a
-                  href="https://br.linkedin.com/in/" /* Substitua com o link correto */
+                  href="https://linkedin.com/company/sua-clinica" /* Substitua com o link correto */
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex w-full items-center justify-center gap-3 rounded-sm border border-blue-600/30 bg-blue-50/50 hover:bg-blue-600 dark:border-blue-500/20 dark:bg-blue-950/20 dark:hover:bg-blue-600 px-6 py-3 text-sm font-medium text-blue-700 dark:text-blue-400 hover:text-white dark:hover:text-white transition-all md:w-auto cursor-pointer"
