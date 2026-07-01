@@ -9,14 +9,14 @@ import logoImg from "@/assets/insightclinica.png";
 export const Route = createFileRoute("/clientes")({
   head: () => ({
     meta: [
-      { title: "Clientes — Insight Clínica" },
+      { title: "Pacientes — Insight Clínica" },
       {
         name: "description",
         content:
-          "Depoimentos de clientes residenciais, comerciais e industriais atendidos pela Insight Clínica.",
+          "Depoimentos de pacientes atendidos pela Insight Clínica.",
       },
-      { property: "og:title", content: "Clientes — Insight Clínica" },
-      { property: "og:description", content: "O que dizem de uma obra feita pela Insight Clínica." },
+      { property: "og:title", content: "Pacientes — Insight Clínica" },
+      { property: "og:description", content: "O que dizem sobre o atendimento da Insight Clínica." },
     ],
   }),
   component: Clientes,
@@ -72,7 +72,7 @@ function Clientes() {
       </div>
 
       <PageHeader
-        eyebrow="— 04 / Clientes"
+        eyebrow="— 04 / Pacientes"
         title="O que dizem sobre a atuação da Insight Clínica."
         intro="Pacientes, famílias e instituições que confiaram seus processos de cuidado à equipe de psicólogos da Insight Clínica."
       />
