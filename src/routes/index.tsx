@@ -171,12 +171,12 @@ function Home() {
               t: "Serviços",
               d: "Projetos, construção, reformas e gerenciamento de obras.",
             },
-            {
-              to: "/obras",
-              n: "03",
-              t: "Obras",
-              d: "Portfólio residencial, comercial e industrial.",
-            },
+            // {
+            //   to: "/obras",
+            //   n: "03",
+            //   t: "Obras",
+            //   d: "Portfólio residencial, comercial e industrial.",
+            // },
             {
               to: "/clientes",
               n: "04",

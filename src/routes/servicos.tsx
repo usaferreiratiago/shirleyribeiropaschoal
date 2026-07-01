@@ -97,8 +97,8 @@ function Servicos() {
 
       <PageHeader
         eyebrow="— 02 / Serviços"
-        title="Do desenho à entrega das chaves."
-        intro="Soluções integradas em engenharia. Você fala com uma equipe só, do primeiro risco à última camada de tinta."
+        title="Do acolhimento ao cuidado contínuo."
+        intro="Atendimento psicológico integrado. Você fala com uma equipe de psicólogos, desde o primeiro contato até o acompanhamento terapêutico contínuo."
       />
 
       {/* Seção de serviços adaptável para Light e Dark Mode */}
