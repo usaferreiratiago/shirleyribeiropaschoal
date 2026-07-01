@@ -146,11 +146,11 @@ function Contato() {
                     Endereço
                   </div>
                   <div className="mt-1 font-display text-lg sm:text-xl leading-snug text-zinc-900 dark:text-zinc-200">
-                    Rua Benedito Onecimo Martins, 23
+                    Siqueira Maia, 599 - Centro
                     <br />
-                    Vila Bom Jesus — Cel. Fabriciano
+                    Cel. Fabriciano
                     <br />
-                    MG — CEP 35170-123
+                    MG — CEP 35170-024
                   </div>
                   <div className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
                     CNPJ 38.039.512/0001-34
@@ -214,7 +214,7 @@ function Contato() {
               />
             </Field>
 
-            <Field label="Sobre seu projeto" error={formState.errors.mensagem?.message}>
+            <Field label="Conte um pouco sobre o que você está vivendo" error={formState.errors.mensagem?.message}>
               <textarea
                 rows={6}
                 {...register("mensagem", { required: "Conte um pouco do que precisa" })}
