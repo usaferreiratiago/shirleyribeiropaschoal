@@ -1,7 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Mail, MapPin, Phone, ArrowLeft, MessageCircle, Linkedin, Instagram, Clock } from "lucide-react";
+import {
+  ArrowUpRight,
+  Mail,
+  MapPin,
+  Phone,
+  ArrowLeft,
+  MessageCircle,
+  Linkedin,
+  Instagram,
+  Clock,
+} from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
@@ -17,16 +27,25 @@ export const Route = createFileRoute("/contato")({
           "Solicite orçamento ou tire dúvidas com a equipe da Insight Clínica em Coronel Fabriciano/MG.",
       },
       { property: "og:title", content: "Fale com a Insight Clínica" },
-      { property: "og:description", content: "Solicite orçamento ou tire dúvidas." },
+      {
+        property: "og:description",
+        content: "Solicite orçamento ou tire dúvidas.",
+      },
     ],
   }),
   component: Contato,
 });
 
-type FormValues = { nome: string; email: string; telefone: string; mensagem: string };
+type FormValues = {
+  nome: string;
+  email: string;
+  telefone: string;
+  mensagem: string;
+};
 
 function Contato() {
-  const { register, handleSubmit, reset, formState, getValues } = useForm<FormValues>();
+  const { register, handleSubmit, reset, formState, getValues } =
+    useForm<FormValues>();
 
   // Envio padrão por E-mail
   const onSubmitEmail = (data: FormValues) => {
@@ -208,7 +227,10 @@ function Contato() {
                   className="w-full rounded-sm border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-950 focus:border-orange-700 focus:outline-hidden dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:focus:border-orange-500"
                 />
               </Field>
-              <Field label="Telefone" error={formState.errors.telefone?.message}>
+              <Field
+                label="Telefone"
+                error={formState.errors.telefone?.message}
+              >
                 <input
                   type="tel"
                   {...register("telefone", { required: "Informe um telefone" })}
@@ -231,10 +253,15 @@ function Contato() {
               />
             </Field>
 
-            <Field label="Conte um pouco sobre o que você está vivendo" error={formState.errors.mensagem?.message}>
+            <Field
+              label="Conte um pouco sobre o que você está vivendo"
+              error={formState.errors.mensagem?.message}
+            >
               <textarea
                 rows={6}
-                {...register("mensagem", { required: "Conte um pouco do que precisa" })}
+                {...register("mensagem", {
+                  required: "Conte um pouco do que precisa",
+                })}
                 className="w-full rounded-sm border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-950 focus:border-orange-700 focus:outline-hidden resize-none dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:focus:border-orange-500"
               />
             </Field>
@@ -307,7 +334,11 @@ function Field({ label, error, children }: FieldProps) {
         {label}
       </span>
       {children}
-      {error && <span className="mt-1 block text-xs text-red-600 dark:text-red-400">{error}</span>}
+      {error && (
+        <span className="mt-1 block text-xs text-red-600 dark:text-red-400">
+          {error}
+        </span>
+      )}
     </label>
   );
 }

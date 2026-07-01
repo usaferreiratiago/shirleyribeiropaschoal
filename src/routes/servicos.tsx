@@ -24,15 +24,21 @@ export const Route = createFileRoute("/servicos")({
         content:
           "Projetos arquitetônicos e estruturais, construção, reformas, obras industriais e gerenciamento de obras no Vale do Aço.",
       },
-      { property: "og:title", content: "Serviços de engenharia — Insight Clinica" },
-      { property: "og:description", content: "Do desenho à entrega das chaves." },
+      {
+        property: "og:title",
+        content: "Serviços de engenharia — Insight Clinica",
+      },
+      {
+        property: "og:description",
+        content: "Do desenho à entrega das chaves.",
+      },
     ],
   }),
   component: Servicos,
 });
 
 const services = [
-    {
+  {
     icon: Brain,
     title: "Avaliação psicológica",
     desc: "Processo inicial de escuta e compreensão das demandas emocionais, comportamentais e cognitivas do paciente.",
