@@ -24,19 +24,19 @@ export const Route = createFileRoute("/clientes")({
 
 const testimonials = [
   {
-    q: "A Insight Clinica entregou nossa fábrica três semanas antes do prazo. Em 30 anos de indústria, nunca vi obra correr tão limpa.",
-    a: "Roberto Mendes",
-    r: "Diretor Industrial · Vale do Aço",
+    q: "A equipe da Insight Clínica nos ajudou a atravessar um momento difícil com muita escuta, cuidado e profissionalismo. Saímos mais fortalecidos emocionalmente.",
+    a: "Marcos Souza",
+    r: "Paciente · Vale do Aço",
   },
   {
-    q: "Construíram a casa da nossa família com um cuidado que parece raro hoje. Cada detalhe foi conversado, cada prazo cumprido.",
-    a: "Ana Paula Resende",
-    r: "Cliente residencial · Ipatinga",
+    q: "O acompanhamento psicológico fez toda a diferença para nossa família. Cada sessão foi um espaço seguro de diálogo e acolhimento.",
+    a: "Ana Costa Assis",
+    r: "Paciente · Ipatinga",
   },
   {
-    q: "Profissionalismo do orçamento à última vistoria. Recomendo de olhos fechados para qualquer obra séria.",
-    a: "Carlos Drummond",
-    r: "Síndico · Coronel Fabriciano",
+    q: "O atendimento é extremamente profissional e humano. Recomendo a qualquer pessoa que esteja buscando apoio psicológico sério e responsável.",
+    a: "Carlos Augusto Pereira",
+    r: "Paciente· Coronel Fabriciano",
   },
 ];
 
