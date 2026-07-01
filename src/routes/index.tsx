@@ -169,7 +169,7 @@ function Home() {
               to: "/servicos",
               n: "02",
               t: "Serviços",
-              d: "Projetos, construção, reformas e gerenciamento de obras.",
+              d: "Do acolhimento ao cuidado contínuo.",
             },
             // {
             //   to: "/obras",
