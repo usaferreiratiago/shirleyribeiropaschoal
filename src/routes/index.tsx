@@ -80,12 +80,12 @@ function Home() {
               transition={{ duration: 0.9, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
               className="font-display text-[clamp(2.75rem,8vw,7rem)] font-medium leading-[0.95] text-zinc-900 dark:text-zinc-50 tracking-tight"
             >
-              Construímos com
+              Foco em 
               <br />
               <span className="italic font-light text-orange-700 dark:text-orange-500">
-                precisão
+                Solidez
               </span>{" "}
-              &amp; permanência.
+              &amp; Evolução.
             </motion.h1>
 
             <motion.p
