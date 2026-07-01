@@ -16,7 +16,7 @@ export const Route = createFileRoute("/clientes")({
           "Depoimentos de clientes residenciais, comerciais e industriais atendidos pela Insight Clínica.",
       },
       { property: "og:title", content: "Clientes — Insight Clínica" },
-      { property: "og:description", content: "O que dizem de uma obra feita pela Insight Clinica." },
+      { property: "og:description", content: "O que dizem de uma obra feita pela Insight Clínica." },
     ],
   }),
   component: Clientes,
