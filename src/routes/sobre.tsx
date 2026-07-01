@@ -57,8 +57,8 @@ function Sobre() {
 
       <PageHeader
         eyebrow="— 01 / Sobre"
-        title="Engenharia construída por quem sabe o peso de cada viga."
-        intro="Fundada em 1986 em Coronel Fabriciano, atendemos famílias, indústrias e comércios do Vale do Aço com o mesmo critério técnico do primeiro dia."
+        title="Psicologia construída por quem compreende o peso de cada história."
+        intro="Fundada em 1986 em Coronel Fabriciano, a Insight Clínica atua no cuidado em saúde mental, atendendo pessoas, famílias e instituições do Vale do Aço com escuta qualificada, ética e acolhimento desde o primeiro dia."
       />
 
       {/* Seção com suporte completo a cores adaptáveis */}
@@ -87,12 +87,10 @@ function Sobre() {
               <strong className="text-zinc-900 font-semibold dark:text-zinc-50">
                 Insight Clínica
               </strong>{" "}
-              nasceu em 1986 com uma convicção simples: obra boa é a que atravessa gerações. Desde
-              então, construímos relações tão duradouras quanto nossas estruturas.
+              nasceu em 1986 com uma convicção simples: cuidado em saúde mental é um processo contínuo, que pode transformar vidas ao longo do tempo. Desde então, construímos relações baseadas em escuta, acolhimento e confiança.
             </p>
             <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400 font-medium dark:font-normal">
-              Nossa equipe técnica acompanha cada etapa — do estudo preliminar à entrega das chaves
-              — com o rigor de quem entende que cada decisão de projeto reverbera por décadas.
+              Nossa equipe de psicólogos acompanha cada etapa do atendimento — da avaliação inicial ao processo terapêutico — com o compromisso de oferecer um cuidado ético, humano e responsável, entendendo que cada história merece atenção singular.
             </p>
 
             {/* Grid de Benefícios/Tags */}
@@ -100,10 +98,10 @@ function Sobre() {
               {[
                 "CNPJ 38.039.512/0001-34.",
                 "Sede em Coronel Fabriciano/MG",
-                "Equipe técnica própria",
-                "Acompanhamento total da obra",
+                "Equipe de psicólogos própria",
+                "Acompanhamento psicológico contínuo",
                 "Atuação em todo Vale do Aço",
-                "Mais de 200 obras entregues",
+                "Mais de 200 atendimentos realizados",
               ].map((i) => (
                 <li
                   key={i}
