@@ -62,11 +62,11 @@ function Clientes() {
             transition={{ duration: 0.5 }}
             className="flex justify-center sm:justify-start"
           >
-            <img
+            {/* <img
               src={logoImg}
               alt="Insight Clínica Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
