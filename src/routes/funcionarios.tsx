@@ -139,7 +139,8 @@ function Funcionarios() {
           <div className="space-y-px bg-zinc-100 dark:bg-zinc-900">
             {currentStaff.map((f, i) => {
               const globalIndex = startIndex + i + 1;
-              const formattedIndex = globalIndex < 10 ? `0${globalIndex}` : globalIndex;
+              const formattedIndex =
+                globalIndex < 10 ? `0${globalIndex}` : globalIndex;
 
               return (
                 <motion.div
