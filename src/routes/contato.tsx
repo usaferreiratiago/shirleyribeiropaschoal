@@ -176,7 +176,7 @@ function Contato() {
                   className="mt-1 h-5 w-5 shrink-0 text-orange-700 dark:text-orange-500"
                   strokeWidth={1.5}
                 />
-                <div className="min-w-0 break-words">
+                <div className="min-w-0 wrap-break-word">
                   <div className="text-xs uppercase tracking-widest text-zinc-500 dark:text-zinc-400 font-semibold">
                     Endereço
                   </div>
@@ -209,7 +209,7 @@ function Contato() {
             </div>
 
             {/* Container do Mapa corrigido com link público funcional */}
-            <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
+            <div className="aspect-4/3 w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
                 title="Localização Insight Clínica"
                 src="https://www.google.com/maps?q=Rua+Rubens+Siqueira+Maia+599,+Coronel+Fabriciano,+MG&output=embed"
@@ -221,7 +221,7 @@ function Contato() {
                 allowFullScreen
               />
             </div>
-            <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
+            <div className="aspect-4/3 w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
                 title="Localização Insight Clínica"
                 src="https://www.google.com/maps?q=Av.+Castelo+Branco,+762+-+Horto,+Ipatinga+-+MG,+35160-294&output=embed"
@@ -233,7 +233,7 @@ function Contato() {
                 allowFullScreen
               />
             </div>
-            <div className="aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
+            <div className="aspect-4/3 w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
                 title="Localização Insight Clínica"
                 src="https://www.google.com/maps?q=R.+Buritis,+105+-+Loja+02+-+Horto,+Ipatinga+-+MG,+35160-321&output=embed"

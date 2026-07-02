@@ -18,7 +18,10 @@ export const Route = createFileRoute("/sobre")({
           "Há 15 anos a Insight Clínica projeta e constrói no Vale do Aço, em Coronel Fabriciano/MG.",
       },
       { property: "og:title", content: "Sobre a Insight Clínica" },
-      { property: "og:description", content: "15 anos de engenharia honesta no Vale do Aço." },
+      {
+        property: "og:description",
+        content: "15 anos de engenharia honesta no Vale do Aço.",
+      },
     ],
   }),
   component: Sobre,
@@ -76,7 +79,7 @@ function Sobre() {
               src={aboutImg}
               alt="Equipe Insight Clinicarevisando projetos"
               loading="lazy"
-              className="aspect-[4/3] w-full object-cover rounded-sm shadow-sm dark:opacity-90"
+              className="aspect-4/3 w-full object-cover rounded-sm shadow-sm dark:opacity-90"
             />
           </motion.div>
 
@@ -87,10 +90,16 @@ function Sobre() {
               <strong className="text-zinc-900 font-semibold dark:text-zinc-50">
                 Insight Clínica
               </strong>{" "}
-              nasceu em 2011 com uma convicção simples: cuidado em saúde mental é um processo contínuo, que pode transformar vidas ao longo do tempo. Desde então, construímos relações baseadas em escuta, acolhimento e confiança.
+              nasceu em 2011 com uma convicção simples: cuidado em saúde mental
+              é um processo contínuo, que pode transformar vidas ao longo do
+              tempo. Desde então, construímos relações baseadas em escuta,
+              acolhimento e confiança.
             </p>
             <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400 font-medium dark:font-normal">
-              Nossa equipe de psicólogos acompanha cada etapa do atendimento — da avaliação inicial ao processo terapêutico — com o compromisso de oferecer um cuidado ético, humano e responsável, entendendo que cada história merece atenção singular.
+              Nossa equipe de psicólogos acompanha cada etapa do atendimento —
+              da avaliação inicial ao processo terapêutico — com o compromisso
+              de oferecer um cuidado ético, humano e responsável, entendendo que
+              cada história merece atenção singular.
             </p>
 
             {/* Grid de Benefícios/Tags */}
@@ -106,7 +115,7 @@ function Sobre() {
               ].map((i) => (
                 <li
                   key={i}
-                  className="flex items-start gap-3 text-sm text-zinc-700 dark:text-zinc-300 font-medium break-words"
+                  className="flex items-start gap-3 text-sm text-zinc-700 dark:text-zinc-300 font-medium wrap-break-word"
                 >
                   {/* Ícone de check usando a cor terracota/laranja consistente com as outras páginas */}
                   <Check className="mt-0.5 h-4 w-4 shrink-0 text-orange-700 dark:text-orange-500" />
