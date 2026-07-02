@@ -137,7 +137,7 @@ function Home() {
           <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-zinc-200 dark:divide-zinc-800 md:grid-cols-4">
             {[
               { k: "15", l: "anos de atendimento" },
-              { k: "+2500", l: "atendimentos realizados" },
+              { k: "+5500", l: "atendimentos realizados" },
               {
                 k: "MG",
                 l: "MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa.",
