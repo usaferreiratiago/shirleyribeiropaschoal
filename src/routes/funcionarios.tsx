@@ -43,41 +43,13 @@ const allStaff = [
     info: "Psicóloga · Especialista em ......",
     year: "",
   },
-  {
-    img: f2,
-    name: "Cláudio Almeida",
-    role: "Diretor de Engenharia",
-    info: "Gerenciamento de Obras Industriais",
-    year: "1998",
-  },
-  {
-    img: f3,
-    name: "Mariana Souza",
-    role: "Coordenadora de Projetos",
-    info: "Arquitetura & Design Executivo",
-    year: "2015",
-  },
-  {
-    img: f4,
-    name: "Rodrigo Costa",
-    role: "Engenheiro de Campo",
-    info: "Fiscalização e Controle de Qualidade",
-    year: "2018",
-  },
-  {
-    img: f5,
-    name: "Ana Beatriz Lima",
-    role: "Gestora Administrativa",
-    info: "Planejamento e Controladoria Geral",
-    year: "2012",
-  },
-  {
-    img: f3,
-    name: "Marta Souza",
-    role: "Técnico em Edificações",
-    info: "Desenho Técnico e Levantamentos",
-    year: "2021",
-  },
+  // {
+  //   img: f2,
+  //   name: "Cláudio Almeida",
+  //   role: "Diretor de Engenharia",
+  //   info: "Gerenciamento de Obras Industriais",
+  //   year: "1998",
+  // },
 ];
 
 const ITEMS_PER_PAGE = 5;
