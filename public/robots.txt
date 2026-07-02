@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /User-agent: *
 Allow: /
+
+Sitemap: https://www.seudominio.com.br/sitemap.xml
+
+Host: https://www.seudominio.com.br

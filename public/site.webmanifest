@@ -1,0 +1,14 @@
+{
+    "name":"Shirley Ribeiro Paschoal",
+    "short_name":"Shirley",
+    "theme_color":"#ffffff",
+    "background_color":"#ffffff",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"icon-192.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        }
+    ]
+}
