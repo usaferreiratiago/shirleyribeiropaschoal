@@ -98,6 +98,7 @@ function Sobre() {
               {[
                 "CNPJ 38.039.512/0001-34.",
                 "Sede em Coronel Fabriciano/MG",
+                "CRP MG 36127",
                 "Equipe de psicólogos própria",
                 "Acompanhamento psicológico",
                 "Atuação em todo Vale do Aço",
