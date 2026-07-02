@@ -41,7 +41,7 @@ const allStaff = [
     name: "Shirley Ribeiro Paschoal",
     role: "Psicóloga",
     info: "Psicóloga · Especialista em ......",
-    year: "",
+    year: "2011",
   },
   // {
   //   img: f2,
