@@ -40,8 +40,8 @@ export const Route = createFileRoute("/servicos")({
 const services = [
   {
     icon: Brain,
-    title: "Avaliação psicológica",
-    desc: "Processo inicial de escuta e compreensão das demandas emocionais, comportamentais e cognitivas do paciente.",
+    title: "Terapia para adultos",
+    desc: "A vida adulta traz inúmeros desafios: pressões profissionais, relações afetivas complexas, transições importantes e, muitas vezes, o peso de antigas feridas emocionais. Meu trabalho como psicóloga é oferecer um espaço seguro, ético e acolhedor, onde você possa se escutar com mais profundidade e reencontrar seu equilíbrio emocional. Na terapia, cada encontro é uma oportunidade de autoconhecimento, fortalecimento e transformação. Trabalhamos juntos(as) para compreender padrões, ressignificar experiências e construir novas possibilidades de lidar com as dificuldades. Seja você alguém que busca entender melhor suas emoções, enfrentar a ansiedade, lidar com traumas ou simplesmente deseja crescer pessoalmente, estou aqui para te acompanhar nesse processo com escuta atenta, empatia e compromisso com o seu bem-estar.",
   },
   {
     icon: Heart,
