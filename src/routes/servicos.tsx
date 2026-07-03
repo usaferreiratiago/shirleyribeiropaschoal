@@ -67,7 +67,7 @@ const services = [
     icon: ClipboardList,
     title:
       "Palestras em Escolas - Construindo Pontes entre Emoções, Comportamentos e Aprendizagem",
-    desc: "Planejamento e monitoramento contínuo do processo terapêutico com foco em evolução clínica.",
+    desc: "Com o olhar atento de quem escuta e compreende o desenvolvimento humano em suas diferentes fases, ofereço palestras e rodas de conversa em escolas, voltadas para crianças, adolescentes, crianças com necessidades especiais e profissionais da educação. Meu objetivo é promover reflexões, fortalecer vínculos e contribuir para a construção de um ambiente escolar mais acolhedor, inclusivo e emocionalmente saudável. As palestras são pensadas de forma personalizada, conforme a faixa etária, as demandas da instituição e o público-alvo. Entre os temas abordados, estão: Para crianças e adolescentes: emoções e sentimentos, autoestima, bullying, convivência, limites, uso saudável das redes sociais, prevenção ao sofrimento psíquico, entre outros. Para crianças com necessidades especiais: incentivo à inclusão, compreensão das emoções, estratégias de regulação emocional e socialização, com linguagem acessível e adaptada. Para profissionais da educação: saúde mental na escola, manejo de comportamentos desafiadores, inclusão escolar, escuta ativa, construção de vínculos afetivos e estratégias para o cuidado com o próprio emocional no ambiente escolar. Acreditando na força da educação emocional, busco levar conhecimento, empatia e práticas que façam diferença real no cotidiano escolar.",
   },
 ];
 
