@@ -45,7 +45,7 @@ const services = [
   },
   {
     icon: Users,
-    title: "Terapia para crianças e adolescentes",
+    title: "Terapia para crianças e Adolescentes",
     desc: "Meu trabalho como psicóloga é guiado pela escuta sensível, empática e respeitosa das histórias e necessidades de cada criança e adolescente que me procura. Atuo com enfoque no desenvolvimento emocional, social e comportamental, criando um espaço seguro para que possam se expressar, se entender e se fortalecer. Na terapia infantil, utilizo recursos lúdicos, como jogos, desenhos e contação de histórias, para facilitar a comunicação e o processo terapêutico. Com adolescentes, o foco é o acolhimento de seus dilemas, identidade, emoções e desafios dessa fase de transição. Também tenho experiência e formação no atendimento de crianças com necessidades especiais, como autismo, TDAH, deficiência intelectual, entre outras condições. A escuta é adaptada, o ritmo é respeitado e as abordagens são personalizadas, sempre em parceria com a família e, quando necessário, com a escola e outros profissionais envolvidos.  Acredito na força do vínculo terapêutico como base para transformar vidas. Cada criança e adolescente tem um universo único, e minha missão é ajudá- los a se descobrirem, crescerem e viverem com mais leveza, confiança e autoestima.",
   },
   {
@@ -65,7 +65,8 @@ const services = [
   },
   {
     icon: ClipboardList,
-    title: "Acompanhamento terapêutico",
+    title:
+      "Palestras em Escolas - Construindo Pontes entre Emoções, Comportamentos e Aprendizagem",
     desc: "Planejamento e monitoramento contínuo do processo terapêutico com foco em evolução clínica.",
   },
 ];
