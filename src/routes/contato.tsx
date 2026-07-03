@@ -341,7 +341,7 @@ function Contato() {
 
                 {/* Botão: Instagram */}
                 <a
-                  href="https://instagram.com/suaclinica" /* Substitua com o link correto */
+                  href="https://instagram.com/psicologashirleyoficial" /* Substitua com o link correto */
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex w-full items-center justify-center gap-3 rounded-sm border border-pink-600/30 bg-pink-50/50 hover:bg-pink-600 dark:border-pink-500/20 dark:bg-pink-950/20 dark:hover:bg-pink-600 px-6 py-3 text-sm font-medium text-pink-700 dark:text-pink-400 hover:text-white dark:hover:text-white transition-all md:w-auto cursor-pointer"
