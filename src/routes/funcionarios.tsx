@@ -40,7 +40,7 @@ const allStaff = [
     img: f5,
     name: "Shirley Ribeiro Paschoal",
     role: "Psicóloga",
-    info: "Psicóloga: Esp. em Terapia Cognitiva e Comportamental, Neuropsicóloga, Palestrante Clínica • Atendimento presencial e online",
+    info: "Esp. em Terapia Cognitiva e Comportamental, Neuropsicóloga, Palestrante Clínica • Atendimento presencial e online",
     year: "2011",
   },
   // {
