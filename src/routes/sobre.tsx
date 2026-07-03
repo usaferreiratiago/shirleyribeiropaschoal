@@ -110,7 +110,7 @@ function Sobre() {
                 "CRP MG 36127",
                 "Equipe de psicólogos própria",
                 "Acompanhamento psicológico",
-                "Atuação em todo Vale do Aço",
+                "Atuação em MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa.",
                 "Mais de 200 atendimentos realizados",
               ].map((i) => (
                 <li
