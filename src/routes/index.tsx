@@ -79,7 +79,7 @@ function Home() {
               className="mb-8 inline-flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-zinc-600 dark:text-zinc-400 font-semibold"
             >
               <span className="h-px w-10 bg-orange-700 dark:bg-orange-600" />
-              Shirley Ribeiro Paschoal Desde 2011 · Coronel Fabriciano, MG
+              Shirley Ribeiro Paschoal, desde 2011 · Coronel Fabriciano, MG
             </motion.div>
 
             <motion.h1
@@ -104,8 +104,7 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="mt-8 max-w-xl text-base leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-lg font-medium dark:font-normal"
             >
-              Olá! Meu nome é Shirley Ribeiro Paschoal, sou Psicóloga
-              especialista em Neuropsicologia e Terapia Cognitiva
+              Sou Psicóloga especialista em Neuropsicologia e Terapia Cognitiva
               Comportamental. Tenho experiência de mais de 15 anos dedicada ao
               serviço público e em instituições como APAE, Residência Inclusiva
               e Clínica particular cuidado em saúde mental no Vale do Aço.
