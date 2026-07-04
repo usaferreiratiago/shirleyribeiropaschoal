@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Projetos, portfolio civis e gerenciamento de construção em Coronel Fabriciano/MG. CNPJ 38.039.512/0001-34..",
+          "Psicologia em MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa. CNPJ 38.039.512/0001-34..",
       },
       {
         property: "og:title",
