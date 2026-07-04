@@ -44,8 +44,8 @@ const allProjects = [
   },
   {
     img: p2,
-    title: "Terapia para crianças e Adolescentes",
-    type: "Terapia para crianças e Adolescentes",
+    title: "Terapia para Crianças e Adolescentes",
+    type: "Terapia para Crianças e Adolescentes",
     year: "",
   },
   {
