@@ -177,7 +177,7 @@ function Home() {
             {
               to: "/portfolio",
               n: "03",
-              t: "portfolio",
+              t: "Portfólio",
               d: "Portfólio Avaliativo.",
             },
             {
