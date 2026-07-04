@@ -1,6 +1,12 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { ArrowUpRight, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
+import {
+  ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
+  ArrowLeft,
+} from "lucide-react";
 import { useState } from "react";
 import p1 from "@/assets/project-1.jpg";
 import p2 from "@/assets/project-2.jpg";
@@ -17,8 +23,7 @@ export const Route = createFileRoute("/portfolio")({
       { title: "Portfolio — Shirley Ribeiro Paschoal" },
       {
         name: "description",
-        content:
-          "Portfólio de Shirley Ribeiro Paschoal.",
+        content: "Portfólio de Shirley Ribeiro Paschoal.",
       },
       { property: "og:title", content: "portfolio — Shirley Ribeiro Paschoal" },
       {
@@ -38,9 +43,24 @@ const allProjects = [
     type: "Residencial · Coronel Fabriciano",
     year: "2026",
   },
-  { img: p2, title: "Edifício Comercial Centro", type: "Comercial · Ipatinga", year: "2026" },
-  { img: p3, title: "Galpão Industrial Vale do Aço", type: "Industrial · Timóteo", year: "2025" },
-  { img: p1, title: "Residencial Horto Classic", type: "Residencial · Ipatinga", year: "2025" },
+  {
+    img: p2,
+    title: "Edifício Comercial Centro",
+    type: "Comercial · Ipatinga",
+    year: "2026",
+  },
+  {
+    img: p3,
+    title: "Galpão Industrial Vale do Aço",
+    type: "Industrial · Timóteo",
+    year: "2025",
+  },
+  {
+    img: p1,
+    title: "Residencial Horto Classic",
+    type: "Residencial · Ipatinga",
+    year: "2025",
+  },
   {
     img: p2,
     title: "Centro Logístico Norte",
@@ -53,26 +73,66 @@ const allProjects = [
     type: "Comercial · Coronel Fabriciano",
     year: "2025",
   },
-  { img: p1, title: "Condomínio Alphaville Vale", type: "Residencial · Timóteo", year: "2024" },
-  { img: p2, title: "Clínica Integrada Ipatinga", type: "Comercial · Ipatinga", year: "2024" },
-  { img: p3, title: "Expansão Industrial Aperam", type: "Industrial · Timóteo", year: "2024" },
-  { img: p1, title: "Vivendas do Lago", type: "Residencial · Coronel Fabriciano", year: "2024" },
-  { img: p2, title: "Supermercado DuVale", type: "Comercial · Santana do Paraíso", year: "2023" },
+  {
+    img: p1,
+    title: "Condomínio Alphaville Vale",
+    type: "Residencial · Timóteo",
+    year: "2024",
+  },
+  {
+    img: p2,
+    title: "Clínica Integrada Ipatinga",
+    type: "Comercial · Ipatinga",
+    year: "2024",
+  },
+  {
+    img: p3,
+    title: "Expansão Industrial Aperam",
+    type: "Industrial · Timóteo",
+    year: "2024",
+  },
+  {
+    img: p1,
+    title: "Vivendas do Lago",
+    type: "Residencial · Coronel Fabriciano",
+    year: "2024",
+  },
+  {
+    img: p2,
+    title: "Supermercado DuVale",
+    type: "Comercial · Santana do Paraíso",
+    year: "2023",
+  },
   {
     img: p3,
     title: "Sede Administrativa Cenibra",
     type: "Industrial · Belo Oriente",
     year: "2023",
   },
-  { img: p1, title: "Residencial Bela Vista", type: "Residencial · Ipatinga", year: "2023" },
-  { img: p2, title: "Shopping Vale Corporate", type: "Comercial · Ipatinga", year: "2023" },
+  {
+    img: p1,
+    title: "Residencial Bela Vista",
+    type: "Residencial · Ipatinga",
+    year: "2023",
+  },
+  {
+    img: p2,
+    title: "Shopping Vale Corporate",
+    type: "Comercial · Ipatinga",
+    year: "2023",
+  },
   {
     img: p3,
     title: "Galpão Metalúrgica Fabriciano",
     type: "Industrial · Coronel Fabriciano",
     year: "2022",
   },
-  { img: p1, title: "Residencial Bromélias", type: "Residencial · Timóteo", year: "2022" },
+  {
+    img: p1,
+    title: "Residencial Bromélias",
+    type: "Residencial · Timóteo",
+    year: "2022",
+  },
   {
     img: p2,
     title: "Centro Médico Fabriciano",
@@ -85,8 +145,18 @@ const allProjects = [
     type: "Industrial · Santana do Paraíso",
     year: "2021",
   },
-  { img: p1, title: "Mansão Belvedere", type: "Residencial · Ipatinga", year: "2021" },
-  { img: p2, title: "Hotel Premium Vale", type: "Comercial · Timóteo", year: "2021" },
+  {
+    img: p1,
+    title: "Mansão Belvedere",
+    type: "Residencial · Ipatinga",
+    year: "2021",
+  },
+  {
+    img: p2,
+    title: "Hotel Premium Vale",
+    type: "Comercial · Timóteo",
+    year: "2021",
+  },
 ];
 
 const ITEMS_PER_PAGE = 5;
@@ -97,7 +167,10 @@ function portfolio() {
 
   // Calcula quais projetos exibir na página atual
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const currentProjects = allProjects.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const currentProjects = allProjects.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE,
+  );
 
   const nextPage = () => {
     if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
@@ -149,7 +222,8 @@ function portfolio() {
           <div className="space-y-px bg-zinc-100 dark:bg-zinc-900">
             {currentProjects.map((p, i) => {
               const globalIndex = startIndex + i + 1;
-              const formattedIndex = globalIndex < 10 ? `0${globalIndex}` : globalIndex;
+              const formattedIndex =
+                globalIndex < 10 ? `0${globalIndex}` : globalIndex;
 
               return (
                 <motion.div
@@ -167,13 +241,13 @@ function portfolio() {
                         src={p.img}
                         alt={p.title}
                         loading="lazy"
-                        className="aspect-[4/3] w-full object-cover transition duration-500 transform hover:scale-[1.03]"
+                        className="aspect-4/3 w-full object-cover transition duration-500 transform hover:scale-[1.03]"
                       />
                     </div>
                   </div>
 
                   {/* Coluna do Número */}
-                  <div className="col-span-3 md:col-span-1 order-1 md:order-none mt-2 md:mt-0">
+                  <div className="col-span-3 md:col-span-1 order-1 md:order-0 mt-2 md:mt-0">
                     <div className="text-xs tabular-nums tracking-widest text-zinc-400 dark:text-zinc-500 font-mono font-semibold">
                       {formattedIndex}
                     </div>
@@ -190,11 +264,15 @@ function portfolio() {
                   </div>
 
                   {/* Coluna do Ano e Link */}
-                  <div className="col-span-9 md:col-span-2 flex items-center justify-between gap-4 order-2 md:order-none mt-2 md:mt-0 justify-self-end md:justify-self-auto w-full md:w-auto">
+                  <div className="col-span-9 md:col-span-2 flex items-center justify-between gap-4 order-2 md:order-0 mt-2 md:mt-0 justify-self-end md:justify-self-auto w-full md:w-auto">
                     <div className="font-display text-xl sm:text-2xl font-medium text-zinc-400 dark:text-zinc-500 font-mono">
                       {p.year}
                     </div>
-                    <Link to="/contato" aria-label="Falar sobre obra similar" className="p-2 -mr-2">
+                    <Link
+                      to="/contato"
+                      aria-label="Falar sobre obra similar"
+                      className="p-2 -mr-2"
+                    >
                       <ArrowUpRight className="h-6 w-6 text-zinc-800 dark:text-zinc-200 transition hover:text-orange-700 dark:hover:text-orange-500 hover:translate-x-0.5 hover:-translate-y-0.5 transform duration-200" />
                     </Link>
                   </div>
