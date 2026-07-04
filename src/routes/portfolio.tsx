@@ -115,7 +115,7 @@ function Portfolio() {
 
       <PageHeader
         eyebrow="— 03 / Portfolio"
-        title="Um portfólio que se mede em metros quadrados e décadas."
+        title="Portfólio que se mede em anos de experiência."
         intro="Uma seleção de nossa história recente. Cada obra carrega o mesmo cuidado técnico, do projeto à última vistoria."
       />
 
