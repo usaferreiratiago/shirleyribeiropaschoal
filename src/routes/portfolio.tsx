@@ -38,27 +38,27 @@ export const Route = createFileRoute("/portfolio")({
 const allProjects = [
   {
     img: p1,
-    title: "Terapia para adultos",
-    type: "Terapia para adultos",
+    title: "Terapia para Adultos",
+    type: "Terapia para Adultos",
     year: "",
   },
   {
     img: p2,
-    title: "Edifício Comercial Centro",
-    type: "Comercial · Ipatinga",
-    year: "2026",
+    title: "Terapia para crianças e Adolescentes",
+    type: "Terapia para crianças e Adolescentes",
+    year: "",
   },
   {
     img: p3,
-    title: "Galpão Industrial Vale do Aço",
-    type: "Industrial · Timóteo",
-    year: "2025",
+    title: "Avaliação Neuropsicológica",
+    type: "Avaliação Neuropsicológica",
+    year: "",
   },
   {
     img: p1,
-    title: "Residencial Horto Classic",
-    type: "Residencial · Ipatinga",
-    year: "2025",
+    title: "Palestras em Escolas",
+    type: "Palestras em Escolas",
+    year: "",
   },
 ];
 
