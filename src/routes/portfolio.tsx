@@ -11,6 +11,7 @@ import a1 from "@/assets/aval-1.png";
 import a2 from "@/assets/aval-2.png";
 import a3 from "@/assets/aval-3.png";
 import a4 from "@/assets/aval-4.png";
+import a5 from "@/assets/aval-5.png";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
@@ -61,6 +62,12 @@ const allProjects = [
     type: "Palestras em Escolas",
     valor: "R$ - Valor",
   },
+  {
+    img: a5,
+    title: "Vamos trabalhar juntos?",
+    type: "Vamos trabalhar juntos?",
+    valor: "Contate-me",
+  },
 ];
 
 const ITEMS_PER_PAGE = 5;
@@ -104,13 +111,7 @@ function Portfolio() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
             className="flex justify-center sm:justify-start"
-          >
-            {/* <img
-              src={logoImg}
-              alt="Seno Engenharia Logo"
-              className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
-            /> */}
-          </motion.div>
+          ></motion.div>
         </div>
       </div>
 
