@@ -7,9 +7,10 @@ import {
   ArrowLeft,
 } from "lucide-react";
 import { useState } from "react";
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
+import a1 from "@/assets/aval-1.jpg";
+import a2 from "@/assets/aval-2.jpg";
+import a3 from "@/assets/aval-3.jpg";
+import a4 from "@/assets/aval-4.jpg";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
@@ -37,25 +38,25 @@ export const Route = createFileRoute("/portfolio")({
 // Mock com a lista de portfolio
 const allProjects = [
   {
-    img: p1,
+    img: a1,
     title: "Terapia para Adultos",
     type: "Terapia para Adultos",
     valor: "R$ - Consultar Investimento",
   },
   {
-    img: p2,
+    img: a2,
     title: "Terapia para Crianças e Adolescentes",
     type: "Terapia para Crianças e Adolescentes",
     valor: "R$ - Consultar Investimento",
   },
   {
-    img: p3,
+    img: a3,
     title: "Avaliação Neuropsicológica",
     type: "Avaliação Neuropsicológica",
     valor: "R$ - Consultar Investimento",
   },
   {
-    img: p1,
+    img: a4,
     title: "Palestras em Escolas",
     type: "Palestras em Escolas",
     valor: "R$ - Consultar Investimento",
