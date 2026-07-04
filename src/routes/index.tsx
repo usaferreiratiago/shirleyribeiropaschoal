@@ -63,7 +63,7 @@ function Home() {
         <div className="absolute inset-0">
           <img
             src={heroImg}
-            alt="Obra em concreto da Insight Clínica"
+            alt="Insight Clínica"
             width={1920}
             height={1080}
             className="h-full w-full object-cover"
