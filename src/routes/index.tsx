@@ -137,7 +137,7 @@ function Home() {
         <div className="relative border-t border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
           <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-zinc-200 dark:divide-zinc-800 md:grid-cols-4">
             {[
-              { k: "15", l: "anos de atendimento" },
+              { k: "+15", l: "anos de atendimento" },
               { k: "+5500", l: "atendimentos realizados" },
               {
                 k: "MG",
