@@ -174,12 +174,12 @@ function Home() {
               t: "Serviços",
               d: "Do acolhimento ao cuidado contínuo.",
             },
-            // {
-            //   to: "/portfolio",
-            //   n: "03",
-            //   t: "portfolio",
-            //   d: "Portfólio residencial, comercial e industrial.",
-            // },
+            {
+              to: "/portfolio",
+              n: "03",
+              t: "portfolio",
+              d: "Portfólio Avaliativo.",
+            },
             {
               to: "/clientes",
               n: "04",
