@@ -79,7 +79,7 @@ function Home() {
               className="mb-8 inline-flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-zinc-600 dark:text-zinc-400 font-semibold"
             >
               <span className="h-px w-10 bg-orange-700 dark:bg-orange-600" />
-              Shirley Ribeiro Paschoal, desde 2011 · Coronel Fabriciano, MG
+              Shirley Ribeiro Paschoal
             </motion.div>
 
             <motion.h1
