@@ -38,9 +38,9 @@ export const Route = createFileRoute("/portfolio")({
 const allProjects = [
   {
     img: p1,
-    title: "Residencial Jardim das Acácias 1",
-    type: "Residencial · Coronel Fabriciano",
-    year: "2026",
+    title: "Terapia para adultos",
+    type: "Terapia para adultos",
+    year: "",
   },
   {
     img: p2,
