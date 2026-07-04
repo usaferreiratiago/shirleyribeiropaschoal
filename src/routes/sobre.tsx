@@ -15,12 +15,12 @@ export const Route = createFileRoute("/sobre")({
       {
         name: "description",
         content:
-          "Há 15 anos a Insight Clínica projeta e constrói no Vale do Aço, em Coronel Fabriciano/MG.",
+          "Há +15 anos a Insight Clínica projeta e constrói no Vale do Aço, em Coronel Fabriciano/MG.",
       },
       { property: "og:title", content: "Sobre a Insight Clínica" },
       {
         property: "og:description",
-        content: "15 anos de engenharia honesta no Vale do Aço.",
+        content: "+15 anos de engenharia honesta no Vale do Aço.",
       },
     ],
   }),

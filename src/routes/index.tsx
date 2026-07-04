@@ -7,7 +7,7 @@ import heroImg from "@/assets/shirleypaschoal.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Insight Clínica — 15 anos de atendimento" },
+      { title: "Insight Clínica — +15 anos de atendimento" },
       {
         name: "description",
         content:
@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "15 anos de atendimento em MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa.",
+          "+15 anos de atendimento em MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa.",
       },
       { property: "og:image", content: heroImg },
     ],
@@ -166,7 +166,7 @@ function Home() {
               to: "/sobre",
               n: "01",
               t: "Sobre",
-              d: "15 anos de atendimento honesto em MG e em todo o Brasil, Estados Unidos e Europa.",
+              d: "+15 anos de atendimento honesto em MG e em todo o Brasil, Estados Unidos e Europa.",
             },
             {
               to: "/servicos",
