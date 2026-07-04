@@ -127,7 +127,7 @@ function Home() {
                 to="/portfolio"
                 className="inline-flex items-center gap-3 rounded-sm border border-zinc-900/20 dark:border-zinc-50/20 px-6 py-3.5 text-sm font-medium text-zinc-900 dark:text-zinc-50 transition hover:border-zinc-900 dark:hover:border-zinc-50 hover:bg-zinc-900/5 dark:hover:bg-zinc-50/5"
               >
-                Ver portfolio
+                Ver Portfolio
               </Link>
             </motion.div>
           </div>
