@@ -41,7 +41,7 @@ const allStaff = [
     name: "Shirley Ribeiro Paschoal",
     role: "Psicóloga",
     info: "Esp. em Terapia Cognitiva e Comportamental, Neuropsicóloga, Palestrante Clínica • Atendimento presencial e online",
-    year: "Desde - 2011",
+    year: "+15 anos",
   },
   // {
   //   img: f2,
