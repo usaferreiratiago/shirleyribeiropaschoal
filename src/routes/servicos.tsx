@@ -21,8 +21,7 @@ export const Route = createFileRoute("/servicos")({
       { title: "Serviços — Insight Clínica" },
       {
         name: "description",
-        content:
-          "Projetos arquitetônicos e estruturais, construção, reformas, obras industriais e gerenciamento de obras no Vale do Aço.",
+        content: "Psicologia.",
       },
       {
         property: "og:title",

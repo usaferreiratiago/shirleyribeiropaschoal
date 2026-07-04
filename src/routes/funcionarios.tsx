@@ -47,7 +47,7 @@ const allStaff = [
   //   img: f2,
   //   name: "Cláudio Almeida",
   //   role: "Diretor de Engenharia",
-  //   info: "Gerenciamento de Obras Industriais",
+  //   info: "Gerenciamento de Portfolio Industriais",
   //   year: "1998",
   // },
 ];
