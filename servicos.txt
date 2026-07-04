@@ -1,0 +1,33 @@
+const services = [
+  {
+    icon: Brain,
+    title: "Terapia para adultos",
+    desc: "A vida adulta traz inúmeros desafios: pressões profissionais, relações afetivas complexas, transições importantes e, muitas vezes, o peso de antigas feridas emocionais. Meu trabalho como psicóloga é oferecer um espaço seguro, ético e acolhedor, onde você possa se escutar com mais profundidade e reencontrar seu equilíbrio emocional. Na terapia, cada encontro é uma oportunidade de autoconhecimento, fortalecimento e transformação. Trabalhamos juntos(as) para compreender padrões, ressignificar experiências e construir novas possibilidades de lidar com as dificuldades. Seja você alguém que busca entender melhor suas emoções, enfrentar a ansiedade, lidar com traumas ou simplesmente deseja crescer pessoalmente, estou aqui para te acompanhar nesse processo com escuta atenta, empatia e compromisso com o seu bem-estar.",
+  },
+  {
+    icon: Users,
+    title: "Terapia para crianças e Adolescentes",
+    desc: "Meu trabalho como psicóloga é guiado pela escuta sensível, empática e respeitosa das histórias e necessidades de cada criança e adolescente que me procura. Atuo com enfoque no desenvolvimento emocional, social e comportamental, criando um espaço seguro para que possam se expressar, se entender e se fortalecer. Na terapia infantil, utilizo recursos lúdicos, como jogos, desenhos e contação de histórias, para facilitar a comunicação e o processo terapêutico. Com adolescentes, o foco é o acolhimento de seus dilemas, identidade, emoções e desafios dessa fase de transição. Também tenho experiência e formação no atendimento de crianças com necessidades especiais, como autismo, TDAH, deficiência intelectual, entre outras condições. A escuta é adaptada, o ritmo é respeitado e as abordagens são personalizadas, sempre em parceria com a família e, quando necessário, com a escola e outros profissionais envolvidos.  Acredito na força do vínculo terapêutico como base para transformar vidas. Cada criança e adolescente tem um universo único, e minha missão é ajudá-los a se descobrirem, crescerem e viverem com mais leveza, confiança e autoestima.",
+  },
+  {
+    icon: Brain,
+    title: "Avaliação Neuropsicológica",
+    desc: "É um processo diagnóstico que visa investigar o funcionamento cognitivo e comportamental de uma pessoa, buscando identificar possíveis alterações ou dificuldades relacionadas ao cérebro e ao sistema nervoso central. É realizada por um profissional especializado, geralmente um neuropsicólogo, e é composta por uma série de testes padronizados que avaliam várias áreas cognitivas, como atenção, memória, linguagem, percepção, funções executivas (planejamento, tomada de decisões, controle de impulsos), raciocínio lógico, entre outras. A principal finalidade é compreender como o cérebro está funcionando em diferentes aspectos, ajudando a identificar condições neurológicas, psiquiátricas ou psicoemocionais. Ela é frequentemente utilizada em casos de suspeita de doenças como Alzheimer, demência, traumatismos cranianos, déficit de atenção, transtornos de aprendizagem, entre outros. Os resultados da avaliação neuropsicológica podem fornecer informações valiosas para o diagnóstico, planejamento de tratamento e acompanhamento terapêutico, além de ajudar na reabilitação de funções cognitivas comprometidas.",
+  },
+  {
+    icon: MessageCircle,
+    title: "Aconselhamento psicológico",
+    desc: "Suporte breve para momentos de crise, decisões difíceis e orientação emocional.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Saúde mental preventiva",
+    desc: "Estratégias de cuidado e prevenção para reduzir riscos de sofrimento psíquico e promover bem-estar.",
+  },
+  {
+    icon: ClipboardList,
+    title:
+      "Palestras em Escolas - Construindo Pontes entre Emoções, Comportamentos e Aprendizagem",
+    desc: "Com o olhar atento de quem escuta e compreende o desenvolvimento humano em suas diferentes fases, ofereço palestras e rodas de conversa em escolas, voltadas para crianças, adolescentes, crianças com necessidades especiais e profissionais da educação. Meu objetivo é promover reflexões, fortalecer vínculos e contribuir para a construção de um ambiente escolar mais acolhedor, inclusivo e emocionalmente saudável. As palestras são pensadas de forma personalizada, conforme a faixa etária, as demandas da instituição e o público-alvo. Entre os temas abordados, estão: Para crianças e adolescentes: emoções e sentimentos, autoestima, bullying, convivência, limites, uso saudável das redes sociais, prevenção ao sofrimento psíquico, entre outros. Para crianças com necessidades especiais: incentivo à inclusão, compreensão das emoções, estratégias de regulação emocional e socialização, com linguagem acessível e adaptada. Para profissionais da educação: saúde mental na escola, manejo de comportamentos desafiadores, inclusão escolar, escuta ativa, construção de vínculos afetivos e estratégias para o cuidado com o próprio emocional no ambiente escolar. Acreditando na força da educação emocional, busco levar conhecimento, empatia e práticas que façam diferença real no cotidiano escolar.",
+  },
+];
