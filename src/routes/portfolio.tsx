@@ -40,25 +40,25 @@ const allProjects = [
     img: p1,
     title: "Terapia para Adultos",
     type: "Terapia para Adultos",
-    year: "",
+    valor: "",
   },
   {
     img: p2,
     title: "Terapia para Crianças e Adolescentes",
     type: "Terapia para Crianças e Adolescentes",
-    year: "",
+    valor: "",
   },
   {
     img: p3,
     title: "Avaliação Neuropsicológica",
     type: "Avaliação Neuropsicológica",
-    year: "",
+    valor: "",
   },
   {
     img: p1,
     title: "Palestras em Escolas",
     type: "Palestras em Escolas",
-    year: "",
+    valor: "",
   },
 ];
 
@@ -169,7 +169,7 @@ function Portfolio() {
                   {/* Coluna do Ano e Link */}
                   <div className="col-span-9 md:col-span-2 flex items-center justify-between gap-4 order-2 md:order-0 mt-2 md:mt-0 justify-self-end md:justify-self-auto w-full md:w-auto">
                     <div className="font-display text-xl sm:text-2xl font-medium text-zinc-400 dark:text-zinc-500 font-mono">
-                      {p.year}
+                      {p.valor}
                     </div>
                     <Link
                       to="/contato"
