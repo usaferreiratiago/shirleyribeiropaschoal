@@ -32,7 +32,7 @@ export const Route = createFileRoute("/portfolio")({
       },
     ],
   }),
-  component: portfolio,
+  component: Portfolio,
 });
 
 // Mock com a lista de portfolio
@@ -161,7 +161,7 @@ const allProjects = [
 
 const ITEMS_PER_PAGE = 5;
 
-function portfolio() {
+function Portfolio() {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(allProjects.length / ITEMS_PER_PAGE);
 
@@ -211,7 +211,7 @@ function portfolio() {
       </div>
 
       <PageHeader
-        eyebrow="— 03 / portfolio"
+        eyebrow="— 03 / Portfolio"
         title="Um portfólio que se mede em metros quadrados e décadas."
         intro="Uma seleção de nossa história recente. Cada obra carrega o mesmo cuidado técnico, do projeto à última vistoria."
       />
