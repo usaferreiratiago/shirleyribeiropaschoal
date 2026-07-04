@@ -40,25 +40,25 @@ const allProjects = [
     img: p1,
     title: "Terapia para Adultos",
     type: "Terapia para Adultos",
-    valor: "R$ - Consultar Valor",
+    valor: "R$ - Consultar Investimento",
   },
   {
     img: p2,
     title: "Terapia para Crianças e Adolescentes",
     type: "Terapia para Crianças e Adolescentes",
-    valor: "R$ - Consultar Valor",
+    valor: "R$ - Consultar Investimento",
   },
   {
     img: p3,
     title: "Avaliação Neuropsicológica",
     type: "Avaliação Neuropsicológica",
-    valor: "R$ - Consultar Valor",
+    valor: "R$ - Consultar Investimento",
   },
   {
     img: p1,
     title: "Palestras em Escolas",
     type: "Palestras em Escolas",
-    valor: "R$ - Consultar Valor",
+    valor: "R$ - Consultar Investimento",
   },
 ];
 
