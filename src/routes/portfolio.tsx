@@ -39,14 +39,14 @@ export const Route = createFileRoute("/portfolio")({
 const allProjects = [
   {
     img: a1,
-    title: "Terapia para Adultos",
-    type: "Terapia para Adultos",
+    title: "Terapia para adultos",
+    type: "Terapia para adultos",
     valor: "R$ - Valor",
   },
   {
     img: a2,
-    title: "Terapia para Crianças e Adolescentes",
-    type: "Terapia para Crianças e Adolescentes",
+    title: "Terapia para crianças e adolescentes",
+    type: "Terapia para crianças e adolescentes",
     valor: "R$ - Valor",
   },
   {
