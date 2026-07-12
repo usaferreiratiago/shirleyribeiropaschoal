@@ -41,26 +41,26 @@ export const Route = createFileRoute()({
 const allProjects = [
   {
     youtubeId: "zuTv_UHpHAE",
-    type: "Viagem • Madrid, Espanha",
-    year: "2026",
+    type: "Serviços de Psicologia — Insight Clínica",
+    year: "",
     url: "https://www.youtube.com/watch?v=zuTv_UHpHAE",
   },
   {
     youtubeId: "VB3fuorXuOg",
-    type: "Viagem • Madrid, Espanha",
-    year: "2026",
+    type: "Serviços de Psicologia — Insight Clínica",
+    year: "",
     url: "https://www.youtube.com/watch?v=VB3fuorXuOg",
   },
   {
     youtubeId: "QxIs9AUxSyY",
-    type: "Viagem • Madrid, Espanha",
-    year: "2025",
+    type: "Serviços de Psicologia — Insight Clínica",
+    year: "",
     url: "https://www.youtube.com/watch?v=QxIs9AUxSyY",
   },
   {
     youtubeId: "XAtZe--6DVI",
-    type: "Viagem • Madrid, Espanha",
-    year: "2025",
+    type: "Serviços de Psicologia — Insight Clínica",
+    year: "",
     url: "https://www.youtube.com/watch?v=XAtZe--6DVI",
   },
 ];
