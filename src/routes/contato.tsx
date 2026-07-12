@@ -17,7 +17,7 @@ import { PageHeader } from "@/components/page-header";
 // Importação da logo utilizando o caminho relativo do projeto
 import logoImg from "@/assets/insightclinica.png";
 
-export const Route = createFileRoute("/contato")({
+export const Route = createFileRoute()({
   head: () => ({
     meta: [
       { title: "Contato — Insight Clínica" },
@@ -59,10 +59,10 @@ function Contato() {
   // Envio alternativo por WhatsApp
   const handleWhatsAppClick = async () => {
     // Dispara a validação do formulário nativamente antes de prosseguir
-    const isValid = await handleSubmit(() => {})();
+    await handleSubmit(() => {})();
 
     // Se o formulário estiver válido, extrai os dados e envia para o WhatsApp
-    if (formState.isValid || isValid !== false) {
+    if (formState.isValid) {
       const data = getValues();
       const text = encodeURIComponent(
         `Olá! Gostaria de fazer um contato comercial.\n\n*Nome:* ${data.nome}\n*E-mail:* ${data.email}\n*Telefone:* ${data.telefone}\n\n*Mensagem:* ${data.mensagem}`,
