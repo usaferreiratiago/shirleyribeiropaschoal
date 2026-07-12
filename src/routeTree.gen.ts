@@ -11,6 +11,7 @@ import { Route as ContatoImport } from './routes/contato'
 import { Route as FuncionariosImport } from './routes/funcionarios'
 import { Route as PortfolioImport } from './routes/portfolio'
 import { Route as ServicosImport } from './routes/servicos'
+import { Route as VideosImport } from './routes/videos'
 import { Route as SobreImport } from './routes/sobre'
 
 const rootRoute = rootRouteImport
@@ -21,7 +22,9 @@ const ContatoRoute = ContatoImport.update({ path: '/contato', getParentRoute: ()
 const FuncionariosRoute = FuncionariosImport.update({ path: '/funcionarios', getParentRoute: () => rootRoute } as any)
 const PortfolioRoute = PortfolioImport.update({ path: '/portfolio', getParentRoute: () => rootRoute } as any)
 const ServicosRoute = ServicosImport.update({ path: '/servicos', getParentRoute: () => rootRoute } as any)
+const VideosRoute = VideosImport.update({ path: '/videos', getParentRoute: () => rootRoute } as any)
 const SobreRoute = SobreImport.update({ path: '/sobre', getParentRoute: () => rootRoute } as any)
+
 
 export const routeTree = rootRoute._addFileChildren({
   '/': IndexRoute,
@@ -30,5 +33,6 @@ export const routeTree = rootRoute._addFileChildren({
   '/funcionarios': FuncionariosRoute,
   '/portfolio': PortfolioRoute,
   '/servicos': ServicosRoute,
+  '/videos': VideosRoute,
   '/sobre': SobreRoute,
 })
