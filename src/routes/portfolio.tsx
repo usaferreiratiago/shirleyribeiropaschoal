@@ -18,7 +18,7 @@ import { PageHeader } from "@/components/page-header";
 import logoImg from "@/assets/senoengenharia.png";
 
 // Rota adicionada explicitamente para resolver o erro do TS
-export const Route = createFileRoute("/portfolio")({
+export const Route = createFileRoute()({
   head: () => ({
     meta: [
       { title: "Portfolio — Shirley Ribeiro Paschoal" },
