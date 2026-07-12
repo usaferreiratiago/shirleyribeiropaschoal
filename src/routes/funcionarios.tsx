@@ -15,7 +15,7 @@ import { PageHeader } from "@/components/page-header";
 import logoImg from "@/assets/insightclinica.png";
 
 // Rota adicionada explicitamente para resolver o erro do TS
-export const Route = createFileRoute("/equipe")({
+export const Route = createFileRoute()({
   head: () => ({
     meta: [
       { title: "Equipe — Insight Clínica" },
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/equipe")({
       },
     ],
   }),
-  component: Funcionarios,
+  component: Pacientes,
 });
 
 // Mock com a lista de funcionários
@@ -54,7 +54,7 @@ const allStaff = [
 
 const ITEMS_PER_PAGE = 5;
 
-function Funcionarios() {
+function Pacientes() {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(allStaff.length / ITEMS_PER_PAGE);
 
