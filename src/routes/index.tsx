@@ -198,6 +198,12 @@ function Home() {
               t: "Contato",
               d: "Entre em contato conosco para mais informações.",
             },
+            {
+              to: "/videos",
+              n: "07",
+              t: "Vídeos",
+              d: "Assista a nossos vídeos para se conhecer melhor.",
+            },
           ].map((c) => (
             <Link
               key={c.to}

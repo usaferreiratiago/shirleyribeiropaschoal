@@ -11,16 +11,20 @@ import logoImg from "@/assets/insightclinica.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Sobre — Insight Clínica" },
+      { title: "Serviços — Insight Clínica" },
       {
         name: "description",
         content:
-          "Há +15 anos a Insight Clínica projeta e constrói no Vale do Aço, em Coronel Fabriciano/MG.",
+          "Conheça os serviços de psicologia oferecidos pela Insight Clínica para adolescentes, adultos, casais e famílias.",
       },
-      { property: "og:title", content: "Sobre a Insight Clínica" },
+      {
+        property: "og:title",
+        content: "Serviços de Psicologia — Insight Clínica",
+      },
       {
         property: "og:description",
-        content: "+15 anos de engenharia honesta no Vale do Aço.",
+        content:
+          "Atendimento psicológico humanizado com foco no bem-estar, saúde mental e qualidade de vida.",
       },
     ],
   }),

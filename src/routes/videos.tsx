@@ -1,7 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { ArrowUpRight, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
+import {
+  ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
+  ArrowLeft,
+} from "lucide-react";
 import { useState, useEffect } from "react";
 import { PageHeader } from "@/components/page-header";
 
@@ -12,20 +17,20 @@ import logoImg from "@/assets/flagspain.jpg";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Comunidade — Um Casal de Amigos Meu" },
+      { title: "Serviços — Insight Clínica" },
       {
         name: "description",
         content:
-          "Veja o que os inscritos e seguidores dizem sobre o canal Um Casal de Amigos Meu e acompanhe histórias compartilhadas pela nossa comunidade.",
+          "Conheça os serviços de psicologia oferecidos pela Insight Clínica para adolescentes, adultos, casais e famílias.",
       },
       {
         property: "og:title",
-        content: "Comunidade — Um Casal de Amigos Meu",
+        content: "Serviços de Psicologia — Insight Clínica",
       },
       {
         property: "og:description",
         content:
-          "Depoimentos de inscritos e seguidores que acompanham nossas viagens, passeios e aventuras.",
+          "Atendimento psicológico humanizado com foco no bem-estar, saúde mental e qualidade de vida.",
       },
     ],
   }),
@@ -50,13 +55,13 @@ const allProjects = [
     youtubeId: "QxIs9AUxSyY",
     type: "Viagem • Madrid, Espanha",
     year: "2025",
-    url: "https://www.youtube.com/watch?v=QxIs9AUxSyY,
+    url: "https://www.youtube.com/watch?v=QxIs9AUxSyY",
   },
   {
     youtubeId: "XAtZe--6DVI",
     type: "Viagem • Madrid, Espanha",
     year: "2025",
-    url: "https://www.youtube.com/watch?v=XAtZe--6DVI,
+    url: "https://www.youtube.com/watch?v=XAtZe--6DVI",
   },
 ];
 
@@ -95,7 +100,10 @@ function VideoRow({
           setDisplayTitle(data.title);
         }
       } catch (error) {
-        console.error(`Erro ao buscar o título para o ID ${project.youtubeId}:`, error);
+        console.error(
+          `Erro ao buscar o título para o ID ${project.youtubeId}:`,
+          error,
+        );
         // Em caso de erro, mantém o título estático definido no array (fallback)
       }
     };
@@ -165,7 +173,10 @@ function Videos() {
   const totalPages = Math.ceil(allProjects.length / ITEMS_PER_PAGE);
 
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const currentProjects = allProjects.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const currentProjects = allProjects.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE,
+  );
 
   const nextPage = () => {
     if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
@@ -214,10 +225,14 @@ function Videos() {
           <div className="space-y-px bg-zinc-100 dark:bg-zinc-900">
             {currentProjects.map((p, i) => {
               const globalIndex = startIndex + i + 1;
-              const formattedIndex = globalIndex < 10 ? `0${globalIndex}` : globalIndex;
+              const formattedIndex =
+                globalIndex < 10 ? `0${globalIndex}` : globalIndex;
 
               // Ensure project has a title to satisfy VideoRow's required prop
-              const projectWithTitle = { ...(p as any), title: (p as any).title ?? p.url ?? "" };
+              const projectWithTitle = {
+                ...(p as any),
+                title: (p as any).title ?? p.url ?? "",
+              };
 
               return (
                 <motion.div
@@ -227,7 +242,10 @@ function Videos() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.05 }}
                 >
-                  <VideoRow project={projectWithTitle} formattedIndex={formattedIndex} />
+                  <VideoRow
+                    project={projectWithTitle}
+                    formattedIndex={formattedIndex}
+                  />
                 </motion.div>
               );
             })}

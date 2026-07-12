@@ -21,15 +21,17 @@ export const Route = createFileRoute()({
       { title: "Serviços — Insight Clínica" },
       {
         name: "description",
-        content: "Psicologia.",
+        content:
+          "Conheça os serviços de psicologia oferecidos pela Insight Clínica para adolescentes, adultos, casais e famílias.",
       },
       {
         property: "og:title",
-        content: "Serviços de engenharia — Insight Clinica",
+        content: "Serviços de Psicologia — Insight Clínica",
       },
       {
         property: "og:description",
-        content: "Do desenho à entrega das chaves.",
+        content:
+          "Atendimento psicológico humanizado com foco no bem-estar, saúde mental e qualidade de vida.",
       },
     ],
   }),
