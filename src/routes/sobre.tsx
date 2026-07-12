@@ -8,7 +8,7 @@ import { PageHeader } from "@/components/page-header";
 import logoImg from "@/assets/insightclinica.png";
 
 // Rota adicionada explicitamente para resolver o erro do TS
-export const Route = createFileRoute("/sobre")({
+export const Route = createFileRoute()({
   head: () => ({
     meta: [
       { title: "Sobre — Insight Clínica" },
