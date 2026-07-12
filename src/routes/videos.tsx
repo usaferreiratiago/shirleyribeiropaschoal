@@ -11,7 +11,7 @@ import { useState, useEffect } from "react";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
-import logoImg from "@/assets/insightclinica.png";
+// import logoImg from "@/assets/insightclinica.png";
 
 // Rota adicionada para resolver o erro do TS
 export const Route = createFileRoute()({
@@ -205,11 +205,11 @@ function Videos() {
             transition={{ duration: 0.5 }}
             className="flex justify-center sm:justify-end w-full sm:w-auto"
           >
-            <img
+            {/* <img
               src={logoImg}
               alt="Um Casal de Amigos Meu Logo"
               className="w-full max-w-40 sm:max-w-50 md:max-w-60 h-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
