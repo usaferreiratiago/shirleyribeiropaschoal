@@ -31,7 +31,7 @@ export const Route = createFileRoute()({
       },
     ],
   }),
-  component: Pacientes,
+  component: Funcionarios,
 });
 
 // Mock com a lista de funcionários
@@ -54,7 +54,7 @@ const allStaff = [
 
 const ITEMS_PER_PAGE = 5;
 
-function Pacientes() {
+function Funcionarios() {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(allStaff.length / ITEMS_PER_PAGE);
 
