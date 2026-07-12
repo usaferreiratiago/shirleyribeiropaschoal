@@ -6,7 +6,7 @@ const links = [
   { to: "/sobre", label: "Sobre" },
   { to: "/servicos", label: "Serviços" },
   { to: "/portfolio", label: "Portfolio" },
-  { to: "/clientes", label: "Clientes" },
+  { to: "/pacientes", label: "pacientes" },
 ] as const;
 
 export function SiteHeader() {
@@ -14,9 +14,17 @@ export function SiteHeader() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
-        <Link to="/" className="flex items-baseline gap-2" onClick={() => setOpen(false)}>
-          <span className="font-display text-xl font-semibold tracking-tight text-ink">INSIGHT CLINICA</span>
-          <span className="text-xs uppercase tracking-[0.25em] text-stone">Clinica</span>
+        <Link
+          to="/"
+          className="flex items-baseline gap-2"
+          onClick={() => setOpen(false)}
+        >
+          <span className="font-display text-xl font-semibold tracking-tight text-ink">
+            INSIGHT CLINICA
+          </span>
+          <span className="text-xs uppercase tracking-[0.25em] text-stone">
+            Clinica
+          </span>
         </Link>
         <nav className="hidden items-center gap-10 text-sm text-foreground/70 md:flex">
           {links.map((l) => (

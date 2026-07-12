@@ -24,8 +24,8 @@ export function SiteFooter() {
             <a href="/portfolio" className="hover:text-ink">
               portfolio
             </a>
-            <a href="/clientes" className="hover:text-ink">
-              Clientes
+            <a href="/pacientes" className="hover:text-ink">
+              pacientes
             </a>
             <a href="/contato" className="hover:text-ink">
               Contato

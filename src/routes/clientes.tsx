@@ -21,7 +21,7 @@ export const Route = createFileRoute()({
       },
     ],
   }),
-  component: Clientes,
+  component: pacientes,
 });
 
 const testimonials = [
@@ -57,7 +57,7 @@ const testimonials = [
   },
 ];
 
-function Clientes() {
+function pacientes() {
   return (
     <div className="relative min-h-screen bg-white dark:bg-zinc-950 transition-colors duration-300 w-full overflow-x-hidden">
       {/* Barra superior de ações (Voltar + Logo) */}

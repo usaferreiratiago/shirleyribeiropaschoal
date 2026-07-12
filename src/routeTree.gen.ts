@@ -6,7 +6,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexImport } from './routes/index'
-import { Route as ClientesImport } from './routes/clientes'
+import { Route as pacientesImport } from './routes/pacientes'
 import { Route as ContatoImport } from './routes/contato'
 import { Route as FuncionariosImport } from './routes/funcionarios'
 import { Route as PortfolioImport } from './routes/portfolio'
@@ -16,7 +16,7 @@ import { Route as SobreImport } from './routes/sobre'
 const rootRoute = rootRouteImport
 
 const IndexRoute = IndexImport.update({ path: '/', getParentRoute: () => rootRoute } as any)
-const ClientesRoute = ClientesImport.update({ path: '/clientes', getParentRoute: () => rootRoute } as any)
+const pacientesRoute = pacientesImport.update({ path: '/pacientes', getParentRoute: () => rootRoute } as any)
 const ContatoRoute = ContatoImport.update({ path: '/contato', getParentRoute: () => rootRoute } as any)
 const FuncionariosRoute = FuncionariosImport.update({ path: '/funcionarios', getParentRoute: () => rootRoute } as any)
 const PortfolioRoute = PortfolioImport.update({ path: '/portfolio', getParentRoute: () => rootRoute } as any)
@@ -25,7 +25,7 @@ const SobreRoute = SobreImport.update({ path: '/sobre', getParentRoute: () => ro
 
 export const routeTree = rootRoute._addFileChildren({
   '/': IndexRoute,
-  '/clientes': ClientesRoute,
+  '/pacientes': pacientesRoute,
   '/contato': ContatoRoute,
   '/funcionarios': FuncionariosRoute,
   '/portfolio': PortfolioRoute,

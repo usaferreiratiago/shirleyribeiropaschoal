@@ -181,7 +181,7 @@ function Home() {
               d: "Portfólio Avaliativo.",
             },
             {
-              to: "/clientes",
+              to: "/pacientes",
               n: "04",
               t: "Pacientes",
               d: "O que dizem sobre o atendimento da Insight Clínica.",
