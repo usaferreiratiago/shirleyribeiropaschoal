@@ -214,7 +214,7 @@ function Videos() {
         </div>
       </div>
       <PageHeader
-        eyebrow="— 03 / Serviços"
+        eyebrow="— 07 / Videos"
         title="Cuidar da saúde mental é um passo importante para o bem-estar."
         intro="Conheça os serviços de psicologia oferecidos pela Insight Clínica. Atendimentos humanizados, baseados em evidências e voltados ao desenvolvimento emocional, ao acolhimento e à promoção da qualidade de vida."
       />
