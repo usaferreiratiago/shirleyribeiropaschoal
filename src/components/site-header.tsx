@@ -68,7 +68,7 @@ export function SiteHeader() {
               </Link>
             ))}
             <Link
-              to=".."
+              to="/contato"
               onClick={() => setOpen(false)}
               className="mt-4 inline-flex items-center justify-center gap-2 rounded-sm bg-ink px-4 py-3 text-sm text-primary-foreground"
             >
