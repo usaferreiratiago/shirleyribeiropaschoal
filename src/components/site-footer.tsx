@@ -9,12 +9,11 @@ export function SiteFooter() {
                 INSIGHT CLINICA
               </span>
               <span className="text-xs uppercase tracking-[0.25em] text-stone">
-                Engenharia · Desde 2011
+                Psicologia · Desde 2011
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm text-foreground/60">
               Conheça os serviços de psicologia oferecidos pela Insight Clínica
-              — Coronel Fabriciano/MG.
             </p>
           </div>
           <nav className="flex flex-col gap-2 text-sm text-foreground/70">
