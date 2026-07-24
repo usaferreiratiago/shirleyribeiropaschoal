@@ -5,7 +5,9 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 gap-8 border-t border-border pt-10 md:grid-cols-3">
           <div>
             <div className="flex items-baseline gap-3">
-              <span className="font-display text-lg font-semibold text-ink">INSIGHT CLINICA</span>
+              <span className="font-display text-lg font-semibold text-ink">
+                INSIGHT CLINICA
+              </span>
               <span className="text-xs uppercase tracking-[0.25em] text-stone">
                 Engenharia · Desde 2011
               </span>
@@ -34,7 +36,9 @@ export function SiteFooter() {
           <div className="text-sm text-foreground/70">
             <div>contato@insightclinica.com.br</div>
             <div className="mt-1">(31) 0000-0000</div>
-            <div className="mt-3 text-xs text-stone">CNPJ 38.039.512/0001-34</div>
+            <div className="mt-3 text-xs text-stone">
+              CNPJ 38.039.512/0001-34
+            </div>
           </div>
         </div>
         <div className="mt-10 text-xs text-stone">
