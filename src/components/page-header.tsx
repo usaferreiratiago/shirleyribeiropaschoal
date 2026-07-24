@@ -17,7 +17,9 @@ export function PageHeader({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <div className="mb-6 text-xs uppercase tracking-[0.3em] text-terracotta">{eyebrow}</div>
+          <div className="mb-6 text-xs uppercase tracking-[0.3em] text-terracotta">
+            {eyebrow}
+          </div>
           <h1 className="max-w-3xl font-display text-4xl font-medium leading-tight text-ink md:text-6xl">
             {title}
           </h1>
