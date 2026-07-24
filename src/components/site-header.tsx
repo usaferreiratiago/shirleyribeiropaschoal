@@ -90,6 +90,8 @@ const links = [
   { to: "/servicos", label: "Serviços" },
   { to: "/portfolio", label: "Portfolio" },
   { to: "/pacientes", label: "Pacientes" },
+  { to: "/funcionarios", label: "Funcionarios" },
+  { to: "/videos", label: "Videos" },
 ] as const;
 
 export function SiteHeader() {
