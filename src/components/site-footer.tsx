@@ -13,7 +13,8 @@ export function SiteFooter() {
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm text-foreground/60">
-              Projetos e construções no Vale do Aço — Coronel Fabriciano/MG.
+              Conheça os serviços de psicologia oferecidos pela Insight Clínica
+              — Coronel Fabriciano/MG.
             </p>
           </div>
           <nav className="flex flex-col gap-2 text-sm text-foreground/70">
@@ -24,10 +25,10 @@ export function SiteFooter() {
               Serviços
             </a>
             <a href="/portfolio" className="hover:text-ink">
-              portfolio
+              Portfolio
             </a>
             <a href="/pacientes" className="hover:text-ink">
-              pacientes
+              Pacientes
             </a>
             <a href="/contato" className="hover:text-ink">
               Contato
@@ -35,7 +36,7 @@ export function SiteFooter() {
           </nav>
           <div className="text-sm text-foreground/70">
             <div>shirleyrp27@yahoo.com.br</div>
-            <div className="mt-1">(31) 0000-0000</div>
+            <div className="mt-1">(31) 98819-1660</div>
             <div className="mt-3 text-xs text-stone">
               CNPJ 38.039.512/0001-34
             </div>

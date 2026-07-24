@@ -21,9 +21,7 @@ function NotFoundComponent() {
         <Link
           to="."
           className="mt-6 inline-block text-sm font-medium text-terracotta underline hover:text-terracotta-deep"
-        >
-          Voltar para o início
-        </Link>
+        ></Link>
       </div>
     </div>
   );
