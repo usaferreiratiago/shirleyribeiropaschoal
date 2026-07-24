@@ -34,7 +34,7 @@ export function SiteFooter() {
             </a>
           </nav>
           <div className="text-sm text-foreground/70">
-            <div>contato@insightclinica.com.br</div>
+            <div>shirleyrp27@yahoo.com.br</div>
             <div className="mt-1">(31) 0000-0000</div>
             <div className="mt-3 text-xs text-stone">
               CNPJ 38.039.512/0001-34

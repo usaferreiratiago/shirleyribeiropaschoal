@@ -52,7 +52,7 @@ function Contato() {
     const body = encodeURIComponent(
       `Nome: ${data.nome}\nEmail: ${data.email}\nTelefone: ${data.telefone}\n\nMENSAGEM:\n${data.mensagem}`,
     );
-    window.location.href = `mailto:contato@insightclinica.com.br?subject=Contato%20pelo%20site&body=${body}`;
+    window.location.href = `mailto:shirleyrp27@yahoo.com.br?subject=Contato%20pelo%20site&body=${body}`;
     reset();
   };
 
@@ -138,7 +138,7 @@ function Contato() {
               </a>
 
               <a
-                href="mailto:contato@insightclinica.com.br"
+                href="mailto:shirleyrp27@yahoo.com.br"
                 className="group flex items-start gap-4 border-b border-zinc-200 dark:border-zinc-800 pb-6 w-full"
               >
                 <Mail
@@ -150,7 +150,7 @@ function Contato() {
                     E-mail
                   </div>
                   <div className="mt-1 font-display text-lg sm:text-xl text-zinc-900 transition group-hover:text-orange-700 dark:text-zinc-200 dark:group-hover:text-orange-500 break-all">
-                    contato@insightclinica.com.br
+                    shirleyrp27@yahoo.com.br
                   </div>
                 </div>
               </a>
