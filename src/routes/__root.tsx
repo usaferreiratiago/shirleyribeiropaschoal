@@ -1,5 +1,10 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Outlet, Link, createRootRouteWithContext, useRouter } from "@tanstack/react-router";
+import {
+  Outlet,
+  Link,
+  createRootRouteWithContext,
+  useRouter,
+} from "@tanstack/react-router";
 import { useEffect } from "react";
 
 /**
@@ -35,7 +40,9 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="text-center">
-        <h1 className="text-2xl font-medium text-ink font-display">Erro inesperado</h1>
+        <h1 className="text-2xl font-medium text-ink font-display">
+          Erro inesperado
+        </h1>
         <p className="mt-2 text-sm text-foreground/70 mb-6">
           Ocorreu um problema ao carregar este trecho da aplicação.
         </p>
@@ -64,7 +71,10 @@ export const Route = createRootRouteWithContext<{
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Insight Clínica" },
-      { name: "description", content: "Engenharia e construção no Vale do Aço" },
+      {
+        name: "description",
+        content: "Engenharia e construção no Vale do Aço",
+      },
     ],
   }),
   component: RootComponent,
