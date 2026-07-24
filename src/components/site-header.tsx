@@ -39,7 +39,7 @@ export function SiteHeader() {
         </nav>
         <div className="flex items-center gap-3">
           <Link
-            to=".."
+            to="/contato"
             className="group hidden items-center gap-2 rounded-sm bg-ink px-4 py-2 text-sm text-primary-foreground transition hover:bg-terracotta md:inline-flex"
           >
             Contato
