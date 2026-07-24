@@ -41,9 +41,7 @@ export function SiteFooter() {
             </div>
           </div>
         </div>
-        <div className="mt-10 text-xs text-stone">
-          © {new Date().getFullYear()} Insight Clínica.
-        </div>
+        <div className="mt-10 text-xs text-stone">© 2011 Insight Clínica.</div>
       </div>
     </footer>
   );

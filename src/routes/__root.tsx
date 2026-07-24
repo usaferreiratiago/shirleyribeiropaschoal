@@ -6,6 +6,8 @@ import {
   useRouter,
 } from "@tanstack/react-router";
 import { useEffect } from "react";
+import { SiteHeader } from "../components/site-header";
+import { SiteFooter } from "../components/site-footer";
 
 /**
  * 404 - Página não encontrada
@@ -90,8 +92,13 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* O Outlet serve de container para as páginas (index, contato, etc.) */}
-      <Outlet />
+      <SiteHeader />
+
+      <main>
+        <Outlet />
+      </main>
+
+      <SiteFooter />
     </QueryClientProvider>
   );
 }
