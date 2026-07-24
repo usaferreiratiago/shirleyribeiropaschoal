@@ -29,6 +29,12 @@ export function SiteFooter() {
             <a href="/pacientes" className="hover:text-ink">
               Pacientes
             </a>
+            <a href="/funcionarios" className="hover:text-ink">
+              Funcionarios
+            </a>
+            <a href="/videos" className="hover:text-ink">
+              Videos
+            </a>
             <a href="/contato" className="hover:text-ink">
               Contato
             </a>
