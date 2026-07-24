@@ -1,9 +1,7 @@
 /* eslint-disable prettier/prettier */
+
 import { RouterProvider } from "@tanstack/react-router";
-import { getRouter } from "./router"; 
-
-
-const router = getRouter();
+import { router } from "./router";
 
 function App() {
   return <RouterProvider router={router} />;

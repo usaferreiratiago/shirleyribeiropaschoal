@@ -10,29 +10,27 @@ import "@fontsource/space-grotesk/700.css";
 import "@fontsource-variable/inter/index.css";
 
 /**
- * Fábrica do Roteador (Router Factory)
- * Cria uma nova instância limpa do roteador com o contexto injetado
+ * Instância única do QueryClient
  */
-export const getRouter = () => {
-  const queryClient = new QueryClient();
-
-  const router = createRouter({
-    routeTree,
-    context: { queryClient },
-    scrollRestoration: true,
-    defaultPreloadStaleTime: 0,
-  });
-
-  return router;
-};
+export const queryClient = new QueryClient();
 
 /**
- * Registro de Tipos do TanStack Router
- * Vincula o retorno da função getRouter ao autocomplete e checagem de tipos global do TypeScript.
- * Isso resolve os erros de "Argument of type '...' is not assignable to parameter of type 'undefined'".
+ * Instância única do Router
+ */
+export const router = createRouter({
+  routeTree,
+  context: {
+    queryClient,
+  },
+  scrollRestoration: true,
+  defaultPreloadStaleTime: 0,
+});
+
+/**
+ * Registro de tipos do TanStack Router
  */
 declare module "@tanstack/react-router" {
   interface Register {
-    router: ReturnType<typeof getRouter>;
+    router: typeof router;
   }
 }
