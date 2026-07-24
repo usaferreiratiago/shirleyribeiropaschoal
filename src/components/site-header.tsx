@@ -70,7 +70,7 @@ export function SiteHeader() {
             <Link
               to="/contato"
               onClick={() => setOpen(false)}
-              className="mt-4 inline-flex items-center justify-center gap-2 rounded-sm bg-ink px-4 py-3 text-sm text-primary-foreground"
+              className="mt-4 inline-flex items-center justify-center gap-2 rounded-md bg-zinc-900 dark:bg-zinc-100 px-4 py-3 text-sm font-medium text-white dark:text-zinc-950 transition hover:bg-orange-700 dark:hover:bg-orange-500 hover:text-white dark:hover:text-white"
             >
               Contato <ArrowUpRight className="h-4 w-4" />
             </Link>
