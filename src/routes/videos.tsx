@@ -41,27 +41,33 @@ export const Route = createFileRoute()({
 const allProjects = [
   {
     youtubeId: "zuTv_UHpHAE",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "Tipos de Depressão e Ansiedade Que Você Ignora — Insight Clínica",
     year: "",
     url: "https://www.youtube.com/watch?v=zuTv_UHpHAE",
   },
   {
     youtubeId: "VB3fuorXuOg",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "NEUROCIÊNCIA, VÍNCULOS E SAÚDE MENTAL — Insight Clínica",
     year: "",
     url: "https://www.youtube.com/watch?v=VB3fuorXuOg",
   },
   {
     youtubeId: "QxIs9AUxSyY",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "Traumas Infantis e o Impacto na Vida Adulta — Insight Clínica",
     year: "",
     url: "https://www.youtube.com/watch?v=QxIs9AUxSyY",
   },
   {
     youtubeId: "XAtZe--6DVI",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "Por Que Você Nunca Se Sente Bom o Suficiente — Insight Clínica",
     year: "",
     url: "https://www.youtube.com/watch?v=XAtZe--6DVI",
+  },
+  {
+    youtubeId: "TIoCjnMFeIs",
+    type: "Saúde Mental Masculina — Insight Clínica",
+    year: "",
+    url: "https://www.youtube.com/watch?v=TIoCjnMFeIs",
   },
 ];
 
